@@ -1,0 +1,48 @@
+[
+  {
+    "id": "arena-parque",
+    "nome": "🇧🇷 Arena Parque 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Brasil x Escócia",
+    "subtitulo": "Brasil x Escócia",
+    "categoria": "copa",
+    "destaque": true,
+    "codigo": "RIOET",
+    "data": "24/06/2026",
+    "horario": "17h às 01h",
+    "local": "Parque Bar - Lagoa",
+    "imagem": "images/arena-parque.jpg",
+    "descricao": "Pré, durante e pós-jogo em um único lugar.",
+    "o_que_vai_rolar": [
+      "Transmissão da partida em telões",
+      "Open churrasquinho até 19h",
+      "Dose dupla de bebidas até 19h",
+      "Surpresas valendo prêmios"
+    ],
+    "lineup": [
+      "LUAN LIMA (Funk)",
+      "Felipe Camacho (Pagode)",
+      "Drin (Funk)",
+      "LVKS b2b PG (Funk)"
+    ],
+    "link_lista": "https://forms.gle/EZLHtrJxQ8XDTFE27",
+    "link_ingresso": "https://zig.tickets/eventos/arena-parque-3-convida-luan-lima-brasil-x-escocia?cupom=RIOET",
+    "contador": "⚽ Copa do Mundo"
+  },
+  {
+    "id": "pagode-da-praia",
+    "nome": "Pagode da Praia",
+    "subtitulo": "",
+    "categoria": "pagode",
+    "destaque": true,
+    "codigo": "RIO-1026",
+    "data": "22/08/2026",
+    "horario": "14h às 22h",
+    "local": "Barra da Tijuca",
+    "imagem": "",
+    "descricao": "O melhor pagode à beira-mar do Rio.",
+    "o_que_vai_rolar": [],
+    "lineup": [],
+    "link_lista": "",
+    "link_ingresso": "",
+    "contador": "⏳ Faltam 18 dias"
+  }
+]
