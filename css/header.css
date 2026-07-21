@@ -1,0 +1,148 @@
+/* ==========================================================
+   HEADER
+   Projeto Conexão • Rio Entretenimento
+========================================================== */
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.header{
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+    height: var(--header-height);
+
+    background:
+
+        linear-gradient(
+
+        180deg,
+
+       rgba(15,15,16,.95),
+
+     rgba(15,15,16,.82)
+
+);
+    backdrop-filter: blur(16px);
+
+    border-bottom: 1px solid var(--borda);
+
+    z-index: var(--z-header);
+}
+
+
+/* ==========================================================
+   CONTAINER
+========================================================== */
+
+.header .container{
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: var(--space-xl);
+}
+
+
+/* ==========================================================
+   LOGO
+========================================================== */
+
+.logo-area{
+    display:flex;
+    align-items:center;
+    gap:var(--space-sm);
+
+    flex-shrink:0;
+}
+
+.logo-area img{
+    width:56px;
+}
+
+.brand{
+    display:flex;
+    flex-direction:column;
+}
+
+.brand h2{
+    color:var(--branco);
+
+    font-size:var(--font-lg);
+    font-weight:var(--extrabold);
+
+    letter-spacing:1px;
+
+    white-space:nowrap;
+}
+
+
+/* ==========================================================
+   MENU
+========================================================== */
+
+.nav-menu{
+    margin-left:auto;
+}
+
+.nav-menu ul{
+    display:flex;
+    align-items:center;
+    gap:var(--space-lg);
+}
+
+.nav-menu a{
+
+    position:relative;
+
+    color:var(--branco);
+
+    font-size:var(--font-sm);
+    font-weight:var(--medium);
+
+    padding:.5rem 0;
+
+    transition:color var(--transition);
+}
+
+.nav-menu a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    bottom:0;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--azul);
+
+    transition:width var(--transition);
+}
+
+.nav-menu a:hover{
+
+    color:var(--azul);
+}
+
+.nav-menu a:hover::after{
+
+    width:100%;
+}
+
+
+/* ==========================================================
+   BOTÃO
+========================================================== */
+
+.header .btn{
+    flex-shrink:0;
+}

@@ -1,0 +1,78 @@
+/* ==========================================================
+   FEATURED EVENTS
+   Projeto Conexão • Rio Entretenimento
+========================================================== */
+
+
+/* ==========================================================
+   SECTION
+========================================================== */
+
+.featured-events{
+
+    background:var(--preto);
+
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.featured-header{
+
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+
+    gap:var(--space-lg);
+
+    margin-bottom:var(--space-2xl);
+
+}
+
+.featured-title{
+
+    display:flex;
+    flex-direction:column;
+
+    gap:var(--space-sm);
+
+}
+
+.featured-title h2{
+
+    font-size:var(--font-2xl);
+
+    color:var(--branco);
+
+}
+
+.featured-title p{
+
+    max-width:650px;
+
+    color:var(--texto-secundario);
+
+}
+
+
+/* ==========================================================
+   LINK
+========================================================== */
+
+.featured-link{
+
+    color:var(--azul);
+
+    font-weight:var(--bold);
+
+    transition:var(--transition);
+
+}
+
+.featured-link:hover{
+
+    opacity:.8;
+
+}

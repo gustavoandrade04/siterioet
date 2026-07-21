@@ -1,0 +1,136 @@
+/* ==========================================================
+   FOOTER
+   Projeto Conexão • Rio Entretenimento
+========================================================== */
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.footer{
+
+    background:var(--preto-secundario);
+
+    border-top:1px solid var(--borda);
+}
+
+
+/* ==========================================================
+   CONTAINER
+========================================================== */
+
+.footer .container{
+
+    display:flex;
+    flex-direction:column;
+
+    gap:var(--space-2xl);
+
+    padding:var(--space-2xl) 0;
+
+}
+
+
+/* ==========================================================
+   TOP
+========================================================== */
+
+.footer-top{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+
+    gap:var(--space-3xl);
+
+}
+
+
+/* ==========================================================
+   BRAND
+========================================================== */
+
+.footer-brand{
+
+    max-width:350px;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:var(--space-md);
+}
+
+.footer-brand h3{
+
+    color:var(--branco);
+
+    font-size:var(--font-xl);
+}
+
+.footer-brand p{
+
+    color:var(--texto-secundario);
+}
+
+
+/* ==========================================================
+   LINKS
+========================================================== */
+
+.footer-links{
+
+    display:flex;
+
+    gap:var(--space-3xl);
+}
+
+.footer-column{
+
+    display:flex;
+    flex-direction:column;
+
+    gap:var(--space-sm);
+}
+
+.footer-column h4{
+
+    color:var(--branco);
+
+    font-size:var(--font-md);
+}
+
+.footer-column a{
+
+    color:var(--texto-secundario);
+
+    transition:color var(--transition);
+}
+
+.footer-column a:hover{
+
+    color:var(--azul);
+}
+
+
+/* ==========================================================
+   BOTTOM
+========================================================== */
+
+.footer-bottom{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding-top:var(--space-lg);
+
+    border-top:1px solid var(--borda);
+}
+
+.footer-bottom p{
+
+    font-size:var(--font-sm);
+
+    color:var(--texto-secundario);
+}

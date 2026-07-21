@@ -1,0 +1,84 @@
+/* ==========================================================
+   VIP SECTION
+   Projeto Conexão • Rio Entretenimento
+========================================================== */
+
+
+/* ==========================================================
+   SECTION
+========================================================== */
+
+.vip-section{
+
+    background:var(--preto-secundario);
+}
+
+
+/* ==========================================================
+   CONTAINER
+========================================================== */
+
+.vip-section .container{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    gap:var(--space-3xl);
+
+    padding:var(--space-3xl);
+
+    background:var(--card);
+
+    border:1px solid var(--borda);
+
+    border-radius:var(--radius-xl);
+
+    box-shadow:var(--shadow-md);
+}
+
+
+/* ==========================================================
+   CONTENT
+========================================================== */
+
+.vip-content{
+
+    display:flex;
+    flex-direction:column;
+
+    gap:var(--space-md);
+
+    flex:1;
+}
+
+.vip-content h2{
+
+    color:var(--branco);
+
+    font-size:var(--font-2xl);
+
+    line-height:1.2;
+}
+
+.vip-content p{
+
+    max-width:600px;
+
+    color:var(--texto-secundario);
+
+    font-size:var(--font-lg);
+}
+
+
+/* ==========================================================
+   ACTION
+========================================================== */
+
+.vip-action{
+
+    display:flex;
+    align-items:center;
+
+    flex-shrink:0;
+}

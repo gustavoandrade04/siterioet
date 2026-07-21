@@ -2,106 +2,364 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rio Entretenimento</title>
-  <link rel="stylesheet" href="css/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rio Entretenimento</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
-  <header>
-    <div class="logo-area">
-      <img src="images/logo.PNG" alt="Rio Entretenimento">
-      <div class="brand">
-        <h2>RIO ENTRETENIMENTO</h2>
-        <p>Descontos para as melhores festas do Brasil</p>
-      </div>
-    </div>
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
 
-    <nav>
-      <ul>
-        <li><a href="pages/eventos.html">Eventos</a></li>
-        <li><a href="pages/openbar.html">Open Bar</a></li>
+    <header class="header">
 
-        <li class="dropdown">
-          <a href="pages/reveillon.html">Réveillon ▾</a>
-          <ul class="submenu">
-            <li><a href="pages/rio-de-janeiro.html">Rio de Janeiro</a></li>
-            <li><a href="pages/buzios.html">Búzios</a></li>
-            <li><a href="pages/nordeste.html">Nordeste</a></li>
-          </ul>
-        </li>
+        <div class="container">
 
-        <li><a href="pages/carnaval.html">Carnaval</a></li>
-        <li><a href="pages/whatsapp.html">Grupo no WhatsApp</a></li>
-        <li><a href="pages/contato.html">Contato</a></li>
-      </ul>
-    </nav>
+            <a href="index.html" class="logo-area">
 
-    <div class="search">
-      <input type="text" id="busca" placeholder="Buscar festa ou código">
-    </div>
-  </header>
+                <img
+                    src="images/logo.PNG"
+                    alt="Rio Entretenimento">
 
-  <section class="hero">
-    <h1>RIO ENTRETENIMENTO</h1>
-    <p>Descontos para as melhores festas do Brasil</p>
-    <a href="https://linktr.ee/Rioentretenimento" class="btn whatsapp">
-      Entrar no Grupo VIP
-    </a>
-  </section>
+                <div class="brand">
+                    <h2>RIO ENTRETENIMENTO</h2>
+                </div>
 
-  <section class="section">
-    <h2>🔥 Eventos em Destaque</h2>
-    <div class="cards" id="cards-destaque">
-      <p style="color:#aaa">Carregando eventos...</p>
-    </div>
-  </section>
+            </a>
 
-  <section class="grupo">
-    <h2>Entre no Grupo VIP da Rio Entretenimento</h2>
-    <p>Receba promoções antes de todo mundo.</p>
-    <a href="https://linktr.ee/Rioentretenimento" target="_blank">Entrar no WhatsApp</a>
-  </section>
+            <nav class="nav-menu">
 
-  <footer>
-    <p>© Rio Entretenimento</p>
-  </footer>
+                <ul>
 
-  <script>
-    fetch('dados/eventos.json')
-      .then(r => r.json())
-      .then(eventos => {
-        const destaque = eventos.filter(e => e.destaque);
-        const container = document.getElementById('cards-destaque');
-        container.innerHTML = '';
+                    <li><a href="index.html">Home</a></li>
 
-        destaque.forEach(e => {
-          const imagem = e.imagem
-            ? `<img src="${e.imagem}" alt="${e.nome}">`
-            : '';
+                    <li><a href="evento.html?id=${evento.id}">Eventos</a></li>
 
-          container.innerHTML += `
-            <div class="card">
-              <div class="card-image">${imagem}</div>
-              <div class="card-content">
-                <span class="codigo">${e.codigo}</span>
-                <h3>${e.nome}</h3>
-                <p>📍 ${e.local}</p>
-                <p>📅 ${e.data}</p>
-                <p class="contador">${e.contador}</p>
-                <a href="evento.html?id=${e.id}" class="ver-evento">Ver Evento</a>
-              </div>
+                    <li><a href="pages/openbar.html">Premium</a></li>
+
+                    <li><a href="pages/reveillon.html">Réveillon</a></li>
+
+                    <li><a href="pages/carnaval.html">Carnaval</a></li>
+
+                    <li><a href="pages/sobre.html">Sobre</a></li>
+
+                </ul>
+
+            </nav>
+
+            <a
+                href="https://linktr.ee/Rioentretenimento"
+                target="_blank"
+                class="btn btn-main">
+
+                Grupo VIP
+
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <section class="hero">
+
+        <div class="container">
+
+            <h1>
+
+                Rio Entretenimento
+
+            </h1>
+
+            <p>
+
+                Conectando você às melhores experiências do Brasil.
+
+            </p>
+
+            <a
+                href="https://linktr.ee/Rioentretenimento"
+                target="_blank"
+                class="btn btn-main btn-lg">
+
+                Entrar no Grupo VIP
+
+            </a>
+
+        </div>
+
+    </section>
+
+        <!-- =====================================================
+         EVENTOS EM DESTAQUE
+    ====================================================== -->
+
+    <section class="featured-events">
+
+        <div class="container">
+
+            <div class="featured-header">
+
+                <div class="featured-title">
+
+                    <h2>Eventos em Destaque</h2>
+
+                    <p>
+                        Descubra os eventos mais procurados da semana e garanta
+                        sua presença nas melhores experiências.
+                    </p>
+
+                </div>
+
+                <a href="pages/eventos.html" class="featured-link">
+
+                    Ver todos →
+
+                </a>
+
             </div>
-          `;
-        });
-      })
-      .catch(() => {
-        document.getElementById('cards-destaque').innerHTML =
-          '<p style="color:#aaa">Erro ao carregar eventos.</p>';
-      });
-  </script>
+
+            <div class="cards" id="cards-destaque">
+
+                <p>Carregando eventos...</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         VIP SECTION
+    ====================================================== -->
+
+    <section class="vip-section">
+
+        <div class="container">
+
+            <div class="vip-content">
+
+                <h2>
+
+                    Entre para o Grupo VIP
+
+                </h2>
+
+                <p>
+
+                    Receba promoções, listas VIP, viradas de lote e novidades
+                    antes de todo mundo.
+
+                </p>
+
+            </div>
+
+            <div class="vip-action">
+
+                <a
+                    href="https://linktr.ee/Rioentretenimento"
+                    target="_blank"
+                    class="btn btn-main btn-lg">
+
+                    Entrar no Grupo VIP
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div class="footer-brand">
+
+                    <h3>Rio Entretenimento</h3>
+
+                    <p>
+
+                        Conectando pessoas às melhores experiências do Brasil.
+
+                    </p>
+
+                </div>
+
+                <div class="footer-links">
+
+                    <div class="footer-column">
+
+                        <h4>Explorar</h4>
+
+                        <a href="pages/eventos.html">Eventos</a>
+
+                        <a href="pages/openbar.html">Premium</a>
+
+                        <a href="pages/reveillon.html">Réveillon</a>
+
+                        <a href="pages/carnaval.html">Carnaval</a>
+
+                    </div>
+
+                    <div class="footer-column">
+
+                        <h4>Empresa</h4>
+
+                        <a href="pages/sobre.html">Sobre</a>
+
+                        <a href="#">Contato</a>
+
+                        <a href="#">Parcerias</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p>
+
+                    © 2026 Rio Entretenimento. Todos os direitos reservados.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+        <!-- =====================================================
+         SCRIPT
+    ====================================================== -->
+
+    <script>
+
+        fetch('eventos.json')
+
+            .then(response => response.json())
+
+            .then(eventos => {
+
+                const destaque = eventos.filter(evento => evento.destaque);
+
+                const container = document.getElementById("cards-destaque");
+
+                container.innerHTML = "";
+
+                destaque.forEach(evento => {
+
+                    container.innerHTML += `
+
+                        <article class="card">
+
+                            <div class="card-image">
+
+                                ${evento.imagem
+                                    ? `<img src="${evento.imagem}" alt="${evento.nome}">`
+                                    : ""
+                                }
+
+                            </div>
+
+                            <div class="card-content">
+
+                                <span class="codigo">
+
+                                    ${evento.codigo}
+
+                                </span>
+
+                                <h3>
+
+                                    ${evento.nome}
+
+                                </h3>
+
+                                <p>
+
+                                    📍 ${evento.local}
+
+                                </p>
+
+                                <p>
+
+                                    📅 ${evento.data}
+
+                                </p>
+
+                                <p class="contador">
+
+                                    ${evento.contador}
+
+                                </p>
+
+                                <div class="card-footer">
+
+                                    <a
+                                        href="pages/evento.html?id=${evento.id}"
+                                        class="btn btn-secondary btn-block">
+
+                                        Ver Evento
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    `;
+
+                });
+
+            })
+
+            .catch(() => {
+
+                document.getElementById("cards-destaque").innerHTML =
+
+                    "<p>Não foi possível carregar os eventos.</p>";
+
+            });
+
+    </script>
 
 </body>
+
 </html>

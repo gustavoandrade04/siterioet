@@ -1,0 +1,170 @@
+/* ==========================================================
+   CARDS
+   Projeto Conexão • Rio Entretenimento
+========================================================== */
+
+
+/* ==========================================================
+   GRID
+========================================================== */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+
+    gap:var(--space-lg);
+}
+
+
+/* ==========================================================
+   CARD
+========================================================== */
+
+.card{
+
+    overflow:hidden;
+
+    display:flex;
+    flex-direction:column;
+
+    background:var(--card);
+
+    border:1px solid var(--borda);
+
+    border-radius:var(--radius-lg);
+
+    transition:
+        transform var(--transition),
+        border-color var(--transition),
+        box-shadow var(--transition);
+        
+}
+    
+
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:rgba(22,72,216,.35);
+
+    box-shadow:var(--shadow-lg);
+}
+
+
+/* ==========================================================
+   IMAGEM
+========================================================== */
+
+.card-image{
+
+    aspect-ratio:16 / 9;
+
+    overflow:hidden;
+
+    background:var(--preto-secundario);
+}
+
+.card-image img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    transition:transform .5s ease;
+}
+
+.card:hover .card-image img{
+
+    transform:scale(1.05);
+}
+
+
+/* ==========================================================
+   CONTEÚDO
+========================================================== */
+
+.card-content{
+
+    flex:1;
+
+    display:flex;
+    flex-direction:column;
+
+    padding:var(--space-lg);
+
+    gap:var(--space-sm);
+}
+
+
+/* ==========================================================
+   CÓDIGO
+========================================================== */
+
+.codigo{
+
+    color:var(--azul);
+
+    font-size:var(--font-sm);
+
+    font-weight:var(--bold);
+
+    text-transform:uppercase;
+
+    letter-spacing:.5px;
+}
+
+
+/* ==========================================================
+   TÍTULO
+========================================================== */
+
+.card-content h3{
+
+    color:var(--branco);
+
+    font-size:var(--font-lg);
+
+    line-height:1.3;
+}
+
+
+/* ==========================================================
+   DESCRIÇÃO
+========================================================== */
+
+.card-content p{
+
+    color:var(--texto-secundario);
+
+    font-size:var(--font-sm);
+}
+
+
+/* ==========================================================
+   CONTADOR
+========================================================== */
+
+.contador{
+
+    color:var(--roxo);
+
+    font-weight:var(--bold);
+}
+
+
+/* ==========================================================
+   AÇÕES
+========================================================== */
+
+.card-footer{
+
+    margin-top:auto;
+    padding-top:var(--space-md);
+}
+
+.card-footer .btn{
+
+    width:100%;
+}

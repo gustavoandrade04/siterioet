@@ -1,0 +1,101 @@
+/* ==========================================================
+   HERO
+   Projeto Conexão • Rio Entretenimento
+========================================================== */
+
+
+/* ==========================================================
+   HERO
+========================================================== */
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    min-height:calc(100vh - var(--header-height));
+
+    
+
+    position:relative;
+
+    overflow:hidden;
+
+    text-align:center;
+}
+
+.hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:700px;
+    height:700px;
+
+    border-radius:50%;
+
+    background:rgba(22,72,216,.15);
+
+    filter:blur(150px);
+
+    top:-250px;
+    right:-150px;
+
+}
+
+/* ==========================================================
+   CONTAINER
+========================================================== */
+
+.hero .container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    gap:var(--space-lg);
+}
+
+
+/* ==========================================================
+   TÍTULO
+========================================================== */
+
+.hero h1{
+
+    max-width:900px;
+
+    font-size:clamp(3.5rem,8vw,5.5rem);
+
+    font-weight:var(--extrabold);
+
+    line-height:1.05;
+
+    letter-spacing:-2px;
+}
+
+
+/* ==========================================================
+   DESCRIÇÃO
+========================================================== */
+
+.hero p{
+
+    max-width:650px;
+
+    font-size:var(--font-xl);
+
+    color:var(--texto-secundario);
+
+    line-height:1.7;
+}
+
+
+/* ==========================================================
+   BOTÃO
+========================================================== */
+
+.hero .btn{
+
+    margin-top:var(--space-sm);
+}
