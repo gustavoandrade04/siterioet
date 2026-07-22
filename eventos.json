@@ -1,48 +1,110 @@
 [
   {
-    "id": "arena-parque",
-    "nome": "🇧🇷 Arena Parque 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Brasil x Escócia",
-    "subtitulo": "Brasil x Escócia",
-    "categoria": "copa",
-    "destaque": true,
-    "codigo": "RIOET",
-    "data": "24/06/2026",
-    "horario": "17h às 01h",
-    "local": "Parque Bar - Lagoa",
-    "imagem": "images/arena-parque.jpg",
-    "descricao": "Pré, durante e pós-jogo em um único lugar.",
+    "id": "isso_nao_e_uma_festa",
+    "nome": "ISSO NÃO É UMA FESTA",
+
+    "tags": [
+      "PREMIUM"
+    ],
+
+    "destaque": false ,
+
+    
+    "codigo": "ISSONAOERIOET",
+    "dia-da-semana": "Sábado",
+    "data": "15/08/2026",
+    "horario": "23h às 08h",
+
+    "local": "a revelar",
+
+    "imagem": "img/eventos/ineuf.png",
+
     "o_que_vai_rolar": [
-      "Transmissão da partida em telões",
-      "Open churrasquinho até 19h",
-      "Dose dupla de bebidas até 19h",
-      "Surpresas valendo prêmios"
+     "ULTRA PREMIUM FULL OPEN BAR"
     ],
+
     "lineup": [
-      "LUAN LIMA (Funk)",
-      "Felipe Camacho (Pagode)",
-      "Drin (Funk)",
-      "LVKS b2b PG (Funk)"
+      "isso não é uma festa"
     ],
-    "link_lista": "https://forms.gle/EZLHtrJxQ8XDTFE27",
-    "link_ingresso": "https://zig.tickets/eventos/arena-parque-3-convida-luan-lima-brasil-x-escocia?cupom=RIOET",
-    "contador": "⚽ Copa do Mundo"
-  },
-  {
-    "id": "pagode-da-praia",
-    "nome": "Pagode da Praia",
-    "subtitulo": "",
-    "categoria": "pagode",
-    "destaque": true,
-    "codigo": "RIO-1026",
-    "data": "22/08/2026",
-    "horario": "14h às 22h",
-    "local": "Barra da Tijuca",
-    "imagem": "",
-    "descricao": "O melhor pagode à beira-mar do Rio.",
-    "o_que_vai_rolar": [],
-    "lineup": [],
+
     "link_lista": "",
-    "link_ingresso": "",
-    "contador": "⏳ Faltam 18 dias"
+
+    "link_ingresso": "https://www.sympla.com.br/evento/isso-nAo-E-uma-festa--10th-edition/3431042?d=ISSONAOEUMRIOET"
+  },
+
+  
+  {
+    "id": "encontrin",
+    "nome": "encontrin de quintas com diproposito",
+
+    "tags": [
+      "destaque"
+    ],
+
+    "destaque": true ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "QUINTA",
+    "data": "23/07/2026",
+    "horario": "21h às 04",
+
+    "local": "VILLA PLANETÁRIO DA GÁVEA",
+
+    "imagem": "images/eventos/encontrin.png",
+
+    "o_que_vai_rolar": [
+     "open chopp até as 22h"
+    ],
+
+    "lineup": [
+      "DIPROPÓSITO",
+      "DJ GUI"
+    ],
+
+    "link_lista": "https://forms.gle/tPGbt3zftGove7gS8",
+
+    "link_ingresso": "https://embedstore.ingresse.com/tickets/www.ingresse.com/event/101459?passkey=RIOET"
+}
+
+,
+
+{
+    "id": "reveillon-destino-2027",
+    "nome": "RÉVEILLON DESTINO 2027",
+
+    "tags": [
+      "reveillon",
+      "premium"
+    ],
+
+    "destaque": false ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "sábado até quinta",
+    "data": "26/12 até 31/12",
+    "horario": "",
+
+    "local": "itacimirim, bahia",
+
+    "imagem": "img/eventos/caza.png",
+
+    "o_que_vai_rolar": [
+     "FULL OPEN BAR EM TODAS AS FESTAS",
+     "VIRADA ALL INCLUSIVE"
+    ],
+
+    "lineup": [
+      "Luan Santana, Léo Foguete, Nattan,",
+      "Menos é Mais, Banda Eva, João Gomes,",
+      "Henry Freitas, Pedro Sampaio, Dubdogz,",
+      "Matheus Fernandes, Rey Vaqueiro, Syon Trio,",
+      "Núzio Medeiros, Dennis DJ e DJ Topo"
+    ],
+
+    "link_lista": "",
+
+    "link_ingresso": "https://vendas.ticketmaker.com.br/evento/reveillon-destino-2027-pacotes/6888-812/RIOET"
   }
 ]

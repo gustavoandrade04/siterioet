@@ -22,6 +22,10 @@
     overflow:hidden;
 
     text-align:center;
+
+    position:relative;
+
+    overflow:hidden;
 }
 
 .hero::before{
@@ -35,12 +39,34 @@
 
     border-radius:50%;
 
-    background:rgba(22,72,216,.15);
+    background:rgba(22,72,216,.18);
 
-    filter:blur(150px);
+    filter:blur(180px);
 
     top:-250px;
-    right:-150px;
+    right:-120px;
+
+    z-index:0;
+
+}
+
+
+
+.hero-tag{
+
+    display:inline-block;
+
+    margin-bottom:18px;
+
+    color:rgba(118, 90, 134, 0.75);
+
+    font-size:.9rem;
+
+    font-weight:700;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
 
 }
 
@@ -54,6 +80,10 @@
     align-items:center;
 
     gap:var(--space-lg);
+
+    position:relative;
+
+    z-index:1;
 }
 
 

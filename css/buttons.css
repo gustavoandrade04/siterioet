@@ -13,8 +13,9 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 
-    padding: 14px 32px;
+    padding: 16px 34px;
 
     border-radius: 999px;
 
@@ -24,9 +25,11 @@
 
     font-weight: 700;
 
+    font-size: 1.05rem;
+
     text-decoration: none;
 
-    box-shadow: 0 10px 25px rgba(37, 211, 102, .35);
+    box-shadow: 0 8px 20px rgba(37, 211, 102, .25);
 
     transition: all .3s ease;
 

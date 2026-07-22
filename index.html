@@ -33,7 +33,7 @@
             <a href="index.html" class="logo-area">
 
                 <img
-                    src="images/logo.PNG"
+                    src="images/logo/logo.PNG"
                     alt="Rio Entretenimento">
 
                 <div class="brand">
@@ -48,7 +48,7 @@
 
                     <li><a href="index.html">Home</a></li>
 
-                    <li><a href="evento.html?id=${evento.id}">Eventos</a></li>
+                    <li><a href="pages/evento.html">Eventos</a></li>
 
                     <li><a href="pages/openbar.html">Premium</a></li>
 
@@ -84,6 +84,12 @@
     <section class="hero">
 
         <div class="container">
+
+            <span class="hero-tag">
+
+                LISTAS VIP • EVENTOS PREMIUM • INGRESSOS COM DESCONTO
+
+            </span>
 
             <h1>
 
@@ -131,7 +137,7 @@
 
                 </div>
 
-                <a href="pages/eventos.html" class="featured-link">
+                <a href="pages/evento.html" class="featured-link">
 
                     Ver todos →
 
@@ -223,7 +229,7 @@
 
                         <h4>Explorar</h4>
 
-                        <a href="pages/eventos.html">Eventos</a>
+                        <a href="pages/evento.html">Eventos</a>
 
                         <a href="pages/openbar.html">Premium</a>
 
@@ -267,99 +273,8 @@
          SCRIPT
     ====================================================== -->
 
-    <script>
-
-        fetch('eventos.json')
-
-            .then(response => response.json())
-
-            .then(eventos => {
-
-                const destaque = eventos.filter(evento => evento.destaque);
-
-                const container = document.getElementById("cards-destaque");
-
-                container.innerHTML = "";
-
-                destaque.forEach(evento => {
-
-                    container.innerHTML += `
-
-                        <article class="card">
-
-                            <div class="card-image">
-
-                                ${evento.imagem
-                                    ? `<img src="${evento.imagem}" alt="${evento.nome}">`
-                                    : ""
-                                }
-
-                            </div>
-
-                            <div class="card-content">
-
-                                <span class="codigo">
-
-                                    ${evento.codigo}
-
-                                </span>
-
-                                <h3>
-
-                                    ${evento.nome}
-
-                                </h3>
-
-                                <p>
-
-                                    📍 ${evento.local}
-
-                                </p>
-
-                                <p>
-
-                                    📅 ${evento.data}
-
-                                </p>
-
-                                <p class="contador">
-
-                                    ${evento.contador}
-
-                                </p>
-
-                                <div class="card-footer">
-
-                                    <a
-                                        href="pages/evento.html?id=${evento.id}"
-                                        class="btn btn-secondary btn-block">
-
-                                        Ver Evento
-
-                                    </a>
-
-                                </div>
-
-                            </div>
-
-                        </article>
-
-                    `;
-
-                });
-
-            })
-
-            .catch(() => {
-
-                document.getElementById("cards-destaque").innerHTML =
-
-                    "<p>Não foi possível carregar os eventos.</p>";
-
-            });
-
-    </script>
+    <script src="js/index.js"></script>
 
 </body>
 
-</html>
+</html> 

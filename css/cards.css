@@ -10,7 +10,9 @@
 
 .cards{
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+     grid-template-columns:repeat(auto-fill, minmax(320px, 320px));
+
+    justify-content:center;
 
     gap:var(--space-lg);
 }
@@ -37,6 +39,8 @@
         transform var(--transition),
         border-color var(--transition),
         box-shadow var(--transition);
+
+    cursor:pointer;
         
 }
     
@@ -48,7 +52,7 @@
 
     border-color:rgba(22,72,216,.35);
 
-    box-shadow:var(--shadow-lg);
+    box-shadow: 0 12px 30px rgba(0,0,0,.25);
 }
 
 
