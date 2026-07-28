@@ -1,5 +1,77 @@
 [
-  {
+    {
+    "id": "encontrin",
+    "nome": "encontrin de quintas com diproposito",
+
+    "tags": [
+      "destaque"
+    ],
+
+    "destaque": true ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "QUINTA",
+    "data": "30/07/2026",
+    "horario": "21h às 04",
+
+    "local": "VILLA PLANETÁRIO DA GÁVEA",
+
+    "imagem": "images/eventos/encontrin.png",
+
+    "o_que_vai_rolar": [
+     "open chopp até as 22h"
+    ],
+
+    "lineup": [
+      "DIPROPÓSITO",
+      "DJ GUI"
+    ],
+
+    "link_lista": "https://forms.gle/XYF2UgENYJortMYp9",
+
+    "link_ingresso": "https://embedstore.ingresse.com/tickets/www.ingresse.com/event/101456?passkey=RIOET"
+}
+
+,
+
+ {
+    "id": "encontrin",
+    "nome": "encontrin de quintas com diproposito",
+
+    "tags": [
+      "destaque"
+    ],
+
+    "destaque": true ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "QUINTA",
+    "data": "30/07/2026",
+    "horario": "21h às 04",
+
+    "local": "VILLA PLANETÁRIO DA GÁVEA",
+
+    "imagem": "images/eventos/encontrin.png",
+
+    "o_que_vai_rolar": [
+     "open chopp até as 22h"
+    ],
+
+    "lineup": [
+      "DIPROPÓSITO",
+      "DJ GUI"
+    ],
+
+    "link_lista": "https://forms.gle/XYF2UgENYJortMYp9",
+
+    "link_ingresso": "https://embedstore.ingresse.com/tickets/www.ingresse.com/event/101456?passkey=RIOET"
+}
+
+,
+
+{
     "id": "isso_nao_e_uma_festa",
     "nome": "ISSO NÃO É UMA FESTA",
 
@@ -30,44 +102,12 @@
     "link_lista": "",
 
     "link_ingresso": "https://www.sympla.com.br/evento/isso-nAo-E-uma-festa--10th-edition/3431042?d=ISSONAOEUMRIOET"
-  },
+  }
+  
+  
+  ,
 
   
-  {
-    "id": "encontrin",
-    "nome": "encontrin de quintas com diproposito",
-
-    "tags": [
-      "destaque"
-    ],
-
-    "destaque": true ,
-
-    
-    "codigo": "RIOET",
-    "dia-da-semana": "QUINTA",
-    "data": "23/07/2026",
-    "horario": "21h às 04",
-
-    "local": "VILLA PLANETÁRIO DA GÁVEA",
-
-    "imagem": "images/eventos/encontrin.png",
-
-    "o_que_vai_rolar": [
-     "open chopp até as 22h"
-    ],
-
-    "lineup": [
-      "DIPROPÓSITO",
-      "DJ GUI"
-    ],
-
-    "link_lista": "https://forms.gle/tPGbt3zftGove7gS8",
-
-    "link_ingresso": "https://embedstore.ingresse.com/tickets/www.ingresse.com/event/101459?passkey=RIOET"
-}
-
-,
 
 {
     "id": "reveillon-destino-2027",
@@ -88,7 +128,7 @@
 
     "local": "itacimirim, bahia",
 
-    "imagem": "images/eventos/caza.png",
+    "imagem": "images/eventos/reveillondestino2.png.png",
 
     "o_que_vai_rolar": [
      "FULL OPEN BAR EM TODAS AS FESTAS",

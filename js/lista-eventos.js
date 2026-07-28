@@ -19,9 +19,9 @@ function dataParaOrdem(data = "") {
     return new Date(Number(ano || 2026), Number(mes) - 1, Number(dia)).getTime();
 }
 
-function ePremium(evento) {
-    const tags = (evento.tags || []).map(tag => tag.toLowerCase());
-    return tags.includes("premium") && !tags.includes("reveillon") && !tags.includes("carnaval");
+function temTag(evento, tag) {
+    const tags = (evento.tags || []).map(t => t.toLowerCase());
+    return tags.includes(tag.toLowerCase());
 }
 
 function renderizar(eventos) {
@@ -48,7 +48,13 @@ fetch("../eventos.json")
         return response.json();
     })
     .then(eventos => {
-        const filtrados = modo === "premium" ? eventos.filter(ePremium) : eventos;
+        // "eventos" (ou nenhum valor) mostra todos os eventos.
+        // Qualquer outro valor de data-catalogo filtra pelos eventos que tiverem
+        // essa mesma palavra dentro da lista "tags" no eventos.json.
+        const filtrados = (!modo || modo === "eventos")
+            ? eventos
+            : eventos.filter(evento => temTag(evento, modo));
+
         renderizar(filtrados.sort((a, b) => dataParaOrdem(a.data) - dataParaOrdem(b.data)));
     })
     .catch(() => {
