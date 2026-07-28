@@ -1,31 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-<meta charset="UTF-8">
-<title>Eventos | Rio Entretenimento</title>
-
-<link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos | Rio Entretenimento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-
-<body>
-
-<header>
-    <h1>Todos os Eventos</h1>
-</header>
-
-<section class="section">
-
-<h2>Junho 2026</h2>
-
-<div class="cards">
-
-<div class="card">
-
-<img src="../images/arena-parque.jpg">
-
-<div class="card-content">
-
-<span class="codigo">
-RIOET
-</span>
+<body data-catalogo="eventos">
+    <main class="catalog-page">
+        <div class="container">
+            <a class="event-back" href="../index.html">← Voltar para a página inicial</a>
+            <div class="catalog-heading">
+                <h1>Todos os eventos</h1>
+                <p>Confira o calendário completo da Rio Entretenimento em ordem cronológica.</p>
+            </div>
+            <div id="catalogo-eventos" class="catalog-grid"><p>Carregando eventos...</p></div>
+        </div>
+    </main>
+    <script src="../js/lista-eventos.js"></script>
+</body>
+</html>

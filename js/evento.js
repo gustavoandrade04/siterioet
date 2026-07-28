@@ -68,9 +68,9 @@ async function loadEvent() {
                             <p><strong>Local:</strong> ${escapeHtml(evento.local || "A confirmar")}</p>
                             ${evento.codigo ? `<p><strong>Código:</strong> ${escapeHtml(evento.codigo)}</p>` : ""}
                         </div>
+                        ${acoes ? `<div class="event-actions">${acoes}</div>` : ""}
                         ${descricao ? `<section class="event-section"><h2>O que vai rolar</h2><ul>${descricao}</ul></section>` : ""}
                         ${lineup ? `<section class="event-section"><h2>Line-up</h2><ul>${lineup}</ul></section>` : ""}
-                        ${acoes ? `<div class="event-actions">${acoes}</div>` : ""}
                     </div>
                 </div>
             </div>`;
