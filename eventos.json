@@ -33,76 +33,6 @@
     "link_ingresso": "https://embedstore.ingresse.com/tickets/www.ingresse.com/event/101456?passkey=RIOET"
 }
 
-,
-
- {
-    "id": "encontrin",
-    "nome": "encontrin de quintas com diproposito",
-
-    "tags": [
-      "destaque"
-    ],
-
-    "destaque": true ,
-
-    
-    "codigo": "RIOET",
-    "dia-da-semana": "QUINTA",
-    "data": "30/07/2026",
-    "horario": "21h às 04",
-
-    "local": "VILLA PLANETÁRIO DA GÁVEA",
-
-    "imagem": "images/eventos/encontrin.png",
-
-    "o_que_vai_rolar": [
-     "open chopp até as 22h"
-    ],
-
-    "lineup": [
-      "DIPROPÓSITO",
-      "DJ GUI"
-    ],
-
-    "link_lista": "https://forms.gle/XYF2UgENYJortMYp9",
-
-    "link_ingresso": "https://embedstore.ingresse.com/tickets/www.ingresse.com/event/101456?passkey=RIOET"
-}
-
-,
-
-{
-    "id": "isso_nao_e_uma_festa",
-    "nome": "ISSO NÃO É UMA FESTA",
-
-    "tags": [
-      "PREMIUM"
-    ],
-
-    "destaque": false ,
-
-    
-    "codigo": "ISSONAOERIOET",
-    "dia-da-semana": "Sábado",
-    "data": "15/08/2026",
-    "horario": "23h às 08h",
-
-    "local": "a revelar",
-
-    "imagem": "images/eventos/ineuf.png",
-
-    "o_que_vai_rolar": [
-     "ULTRA PREMIUM FULL OPEN BAR"
-    ],
-
-    "lineup": [
-      "isso não é uma festa"
-    ],
-
-    "link_lista": "",
-
-    "link_ingresso": "https://www.sympla.com.br/evento/isso-nAo-E-uma-festa--10th-edition/3431042?d=ISSONAOEUMRIOET"
-  }
   
   
   ,
@@ -114,8 +44,7 @@
     "nome": "RÉVEILLON DESTINO 2027",
 
     "tags": [
-      "reveillon",
-      "premium"
+      "reveillon"
     ],
 
     "destaque": false ,
@@ -128,7 +57,7 @@
 
     "local": "itacimirim, bahia",
 
-    "imagem": "images/eventos/reveillondestino2.png.png",
+    "imagem": "images/eventos/reveillon-destino.png",
 
     "o_que_vai_rolar": [
      "FULL OPEN BAR EM TODAS AS FESTAS",
@@ -147,4 +76,74 @@
 
     "link_ingresso": "https://vendas.ticketmaker.com.br/evento/reveillon-destino-2027-pacotes/6888-812/RIOET"
   }
+
+
+    ,
+
+  
+
+  {
+    "id": "reveillon-milagres-2027",
+    "nome": "RÉVEILLON MILAGRES 2027",
+
+    "tags": [ 
+      "reveillon"   
+    ],
+
+    "destaque": false ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "domingo até quinta",
+    "data": "27/12 até 31/12",
+    "horario": "",
+
+    "local": "são miguel dos milagres, alagoas",
+
+    "imagem": "images/eventos/reveillon-milagres.png",
+
+    "o_que_vai_rolar": [
+     "Somos um encontro anual criado para conectar pessoas através de experiências compartilhadas. Música, cultura, natureza e conexão humana guiam cada momento."
+
+,
+" ",
+
+"Há 15 anos, nos reunimos na Rota Ecológica dos Milagres, um lugar que já carrega sua própria magia"
+,
+" /n",
+
+"**Tipos de Ingresso:**\n* COMBOS FESTAS: "
+,
+"27, 28, 29, 30 e 31 de Dezembro "
+,
+"* MINI COMBO: Virada 31 + 2 festas à escolha"
+,
+"* AVULSO VIRADA: Somente a festa do dia 31 (All Inclusive)"
+  
+    ],
+
+    "lineup": [ "* 27 DEZ — Xique Xique: Nattan & Brunetta | Open Bar"
+,
+"* 28 DEZ — Seriguela: Menos é Mais & Syon Trio | Open Bar"
+,
+"* 29 DEZ — Borogodó: Pedro Sampaio & Banda EVA | Open Bar"
+,
+"* 30 DEZ — Novidades em Breve | Open Bar"
+,
+"* 31 DEZ — Réveillon dos Milagres: Matheus Fernandes, Pontifexx e Locos DJs | All Inclusive "
+
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+
+
+    "link_ingresso": "https://cart.ingresse.com/2787127b-533d-4579-b769-5d01f0355e35/tickets?cod=RIOET"
+
+  }
+
 ]

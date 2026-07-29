@@ -10,6 +10,12 @@ function escapeHtml(value = "") {
         .replace(/'/g, "&#039;");
 }
 
+function formatEventText(value = "") {
+    return escapeHtml(value)
+        .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+        .replace(/\n/g, "<br>");
+}
+
 function renderError(message) {
     container.innerHTML = `
         <div class="container">
@@ -44,10 +50,10 @@ async function loadEvent() {
 
         const imagem = evento.imagem ? `../${escapeHtml(evento.imagem)}` : "";
         const descricao = (evento.o_que_vai_rolar || [])
-            .map(item => `<li>${escapeHtml(item)}</li>`)
+            .map(item => `<li>${formatEventText(item)}</li>`)
             .join("");
         const lineup = (evento.lineup || [])
-            .map(item => `<li>${escapeHtml(item)}</li>`)
+            .map(item => `<li>${formatEventText(item)}</li>`)
             .join("");
         const acoes = [
             evento.link_lista && `<a class="btn-main" href="${escapeHtml(evento.link_lista)}" target="_blank" rel="noopener noreferrer">Entrar na Lista VIP</a>`,
@@ -56,17 +62,79 @@ async function loadEvent() {
 
         container.innerHTML = `
             <div class="container">
-                <a class="event-back" href="../index.html">← Voltar para eventos</a>
-                <div class="event-layout">
-                    ${imagem ? `<img class="event-poster" src="${imagem}" alt="${escapeHtml(evento.nome)}">` : ""}
-                    <div class="event-content">
+
+    <a class="event-back" href="../index.html">
+        ← Voltar para eventos
+    </a>
+
+    ${evento.link_grupo_vip ? `
+        <a
+            class="vip-event-banner"
+            href="${escapeHtml(evento.link_grupo_vip)}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Entrar no Grupo VIP do WhatsApp"
+        >
+            <div class="vip-event-banner__content">
+                <span class="vip-event-banner__eyebrow">
+                    Comunidade Rioet
+                </span>
+
+                <strong>
+                    Entre no Grupo VIP do WhatsApp
+                </strong>
+
+                <span class="vip-event-banner__description">
+                    Descontos exclusivos, viradas de lote e novidades dos melhores eventos.
+                </span>
+            </div>
+
+            <span class="vip-event-banner__button">
+                Entrar no grupo
+                <span aria-hidden="true">→</span>
+            </span>
+        </a>
+    ` : ""}
+
+    <div class="event-layout">
+
+<div class="event-media">
+
+    ${imagem ? `
+        <img
+            class="event-poster"
+            src="${imagem}"
+            alt="${escapeHtml(evento.nome)}"
+        >
+    ` : ""}
+
+    ${evento.link_linktree ? `
+        <a
+            class="event-linktree"
+            href="${escapeHtml(evento.link_linktree)}"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Ver todos os links do evento
+            <span aria-hidden="true">→</span>
+        </a>
+    ` : ""}
+
+</div>
+
+<div class="event-content">
                         <span class="event-tag">${escapeHtml((evento.tags || ["Evento"])[0])}</span>
                         <h1>${escapeHtml(evento.nome)}</h1>
                         <div class="event-info">
                             <p><strong>Quando:</strong> ${escapeHtml(evento['dia-da-semana'] || "")} ${escapeHtml(evento.data || "")}</p>
                             ${evento.horario ? `<p><strong>Horário:</strong> ${escapeHtml(evento.horario)}</p>` : ""}
                             <p><strong>Local:</strong> ${escapeHtml(evento.local || "A confirmar")}</p>
-                            ${evento.codigo ? `<p><strong>Código:</strong> ${escapeHtml(evento.codigo)}</p>` : ""}
+                            ${evento.codigo ? `
+                                <div class="event-code">
+                                    <span>Use o código:</span>
+                                    <strong>${escapeHtml(evento.codigo)}</strong>
+                                </div>
+                            ` : ""}
                         </div>
                         ${acoes ? `<div class="event-actions">${acoes}</div>` : ""}
                         ${descricao ? `<section class="event-section"><h2>O que vai rolar</h2><ul>${descricao}</ul></section>` : ""}
