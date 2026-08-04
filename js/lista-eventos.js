@@ -1,5 +1,6 @@
 const catalogo = document.getElementById("catalogo-eventos");
 const modo = document.body.dataset.catalogo;
+const regiaoReveillon = new URLSearchParams(window.location.search).get("regiao");
 
 function escapar(value = "") {
     return String(value)
@@ -10,23 +11,50 @@ function escapar(value = "") {
         .replace(/'/g, "&#039;");
 }
 
+function temTag(evento, tag) {
+    return (evento.tags || []).some(item => item.toLowerCase() === tag);
+}
+
 function dataParaOrdem(data = "") {
     const partes = data.match(/(\d{2})\/(\d{2})(?:\/(\d{4}))?/);
-
     if (!partes) return Number.MAX_SAFE_INTEGER;
 
     const [, dia, mes, ano] = partes;
     return new Date(Number(ano || 2026), Number(mes) - 1, Number(dia)).getTime();
 }
 
-function temTag(evento, tag) {
-    const tags = (evento.tags || []).map(t => t.toLowerCase());
-    return tags.includes(tag.toLowerCase());
+function ePremium(evento) {
+    return temTag(evento, "premium") && !temTag(evento, "reveillon") && !temTag(evento, "carnaval");
+}
+
+function regiaoDoReveillon(evento) {
+    return String(evento.categoria_reveillon || "nordeste").toLowerCase();
+}
+
+function acessoEvento(evento) {
+    if (evento.link_lista) {
+        return '<span class="catalog-access catalog-access--vip">Lista VIP</span>';
+    }
+
+    if (evento.link_ingresso) {
+        return '<span class="catalog-access catalog-access--ingresso">Ingressos com desconto</span>';
+    }
+
+    return "";
+}
+
+function atualizarSubabas() {
+    document.querySelectorAll(".catalog-tabs a").forEach(link => {
+        const regiaoDoLink = new URL(link.href).searchParams.get("regiao");
+        const selecionada = (regiaoDoLink || null) === regiaoReveillon;
+        link.classList.toggle("is-active", selecionada);
+        if (selecionada) link.setAttribute("aria-current", "page");
+    });
 }
 
 function renderizar(eventos) {
     if (!eventos.length) {
-        catalogo.innerHTML = '<div class="catalog-empty"><h2>Nenhum evento encontrado</h2><p>Em breve teremos novidades por aqui.</p></div>';
+        catalogo.innerHTML = '<div class="catalog-empty"><h2>Eventos em breve</h2><p>Estamos preparando novidades para você. Volte em breve.</p></div>';
         return;
     }
 
@@ -38,6 +66,7 @@ function renderizar(eventos) {
                 <h2>${escapar(evento.nome)}</h2>
                 <p class="catalog-meta">${escapar(evento.data)}${evento.horario ? ` • ${escapar(evento.horario)}` : ""}</p>
                 <p class="catalog-meta">${escapar(evento.local || "Local a confirmar")}</p>
+                ${acessoEvento(evento)}
             </div>
         </a>`).join("");
 }
@@ -48,12 +77,17 @@ fetch("../eventos.json")
         return response.json();
     })
     .then(eventos => {
-        // "eventos" (ou nenhum valor) mostra todos os eventos.
-        // Qualquer outro valor de data-catalogo filtra pelos eventos que tiverem
-        // essa mesma palavra dentro da lista "tags" no eventos.json.
-        const filtrados = (!modo || modo === "eventos")
-            ? eventos
-            : eventos.filter(evento => temTag(evento, modo));
+        let filtrados = eventos;
+
+        if (modo === "premium") filtrados = eventos.filter(ePremium);
+        if (modo === "reveillon") {
+            filtrados = eventos.filter(evento => temTag(evento, "reveillon"));
+            if (regiaoReveillon) {
+                filtrados = filtrados.filter(evento => regiaoDoReveillon(evento) === regiaoReveillon);
+            }
+            atualizarSubabas();
+        }
+        if (modo === "carnaval") filtrados = eventos.filter(evento => temTag(evento, "carnaval"));
 
         renderizar(filtrados.sort((a, b) => dataParaOrdem(a.data) - dataParaOrdem(b.data)));
     })

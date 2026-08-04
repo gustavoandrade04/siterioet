@@ -1,7 +1,101 @@
 [
-    {
+  {
     "id": "encontrin",
     "nome": "encontrin de quintas com diproposito",
+    "tags": [
+      "destaque"
+    ],
+    "destaque": true,
+    "codigo": "RIOET",
+    "dia-da-semana": "QUINTA",
+    "data": "06/08/2026",
+    "horario": "21h às 04",
+    "local": "VILLA PLANETÁRIO DA GÁVEA",
+    "imagem": "images/eventos/encontrin.png",
+    "o_que_vai_rolar": [
+      "open chopp até as 22h"
+    ],
+    "lineup": [
+      "DIPROPÓSITO",
+      "DJ feeli"
+    ],
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+    "link_lista": "https://forms.gle/XYF2UgENYJortMYp9",
+    "link_ingresso": "https://embedstore.ingresse.com/tickets/www.ingresse.com/event/101456?passkey=RIOET"
+  }
+  
+  ,
+  
+  
+  {
+    "id": "WHAtS-POPPIN🛖",
+    "nome": "WHATS POPPIN? 🩷🛖",
+    "tags": [
+      "destaque"
+    ],
+    "destaque": true,
+    "codigo": "RIOET",
+    "dia-da-semana": "sexta-feira",
+    "data": "07/08/2026",
+    "horario": "21h às 04",
+    "local": "ALDEIA LAGOA",
+    "imagem": "images/eventos/aldeia.png",
+    "o_que_vai_rolar": [
+      "📝 Lista Vip Raphael Mattos:\n🚺 VIP até 00h\n🚹 50$ até 23h/ 70$ até 00h"
+    ],
+    "lineup": [
+      "🎧 ISE",
+      "🎧 Kelve",
+      "🎧 Delta7",
+      "🎧 Tanus"
+    ],
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+    "link_lista": "https://forms.gle/eZhqF5L4ST92gsQa6",
+    "link_ingresso": "https://zig.tickets/eventos/aldeia-sexta-0708?cupom=RIOET"
+  }
+  
+  ,
+  
+  
+  {
+    "id": "warm-up-ineuf",
+    "nome": "WARM UP ISSO NÃO É UMA FESTA 🟠✖️",
+    "tags": [
+      "destaque"
+    ],
+    "destaque": true,
+    "codigo": "RIOET",
+    "dia-da-semana": "sexta-feira",
+    "data": "07/08/2026",
+    "horario": "21h às 04h",
+    "local": "CAZA LAGOA",
+    "imagem": "images/eventos/caza.png",
+    "o_que_vai_rolar": [
+      "Até 23:00h:",
+      "Open Chopp🍻",
+      "Dose Dupla Aperol🍹",
+      "📝 Lista Vip Raphael Mattos:",
+      "🚺 VIP  | 🚹R$60 até 23:30hs",
+      "🚺 R$40  | 🚹R$80 até 00:30hs"
+    ],
+    "lineup": [
+      "NEF DJ SET🟠✖️"
+    ],
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+    "link_lista": "https://forms.gle/iocrVbhPaR1NhAUq9",
+    "link_ingresso": "https://zig.tickets/eventos/caza-apresenta-warm-up-isso-nao-e-uma-festa-0708?cupom=RIOET"
+  }
+
+
+  ,
+  
+
+  {
+    "id": "tava-te-esperando-amor",
+    "nome": "TAVA TE ESPERANDO AMOR 🥁🫶🏽",
 
     "tags": [
       "destaque"
@@ -11,127 +105,177 @@
 
     
     "codigo": "RIOET",
-    "dia-da-semana": "QUINTA",
-    "data": "30/07/2026",
-    "horario": "21h às 04",
+    "dia-da-semana": "sábado",
+    "data": "08/08/2026",
+    "horario": "21h às 04h",
 
-    "local": "VILLA PLANETÁRIO DA GÁVEA",
+    "local": "CAZA LAGOA",
 
-    "imagem": "images/eventos/encontrin.png",
+    "imagem": "images/eventos/caza.png",
 
     "o_que_vai_rolar": [
-     "open chopp até as 22h"
+     "até 23:00h:\nOpen Chopp🍻"
     ],
 
     "lineup": [
-      "DIPROPÓSITO",
-      "DJ GUI"
+      "Landim\nVictor Alves\nDJ Matheus Oliveira"
     ],
 
-    "link_lista": "https://forms.gle/XYF2UgENYJortMYp9",
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
 
-    "link_ingresso": "https://embedstore.ingresse.com/tickets/www.ingresse.com/event/101456?passkey=RIOET"
-}
+    "link_linktree": "https://linktr.ee/rioentretenimento",
 
-  
-  
-  ,
+    "link_lista": "https://forms.gle/7yrhCFYRqwmgDXxKA ",
 
-  
-
-{
-    "id": "reveillon-destino-2027",
-    "nome": "RÉVEILLON DESTINO 2027",
-
-    "tags": [
-      "reveillon"
-    ],
-
-    "destaque": false ,
-
-    
-    "codigo": "RIOET",
-    "dia-da-semana": "sábado até quinta",
-    "data": "26/12 até 31/12",
-    "horario": "",
-
-    "local": "itacimirim, bahia",
-
-    "imagem": "images/eventos/reveillon-destino.png",
-
-    "o_que_vai_rolar": [
-     "FULL OPEN BAR EM TODAS AS FESTAS",
-     "VIRADA ALL INCLUSIVE"
-    ],
-
-    "lineup": [
-      "Luan Santana, Léo Foguete, Nattan,",
-      "Menos é Mais, Banda Eva, João Gomes,",
-      "Henry Freitas, Pedro Sampaio, Dubdogz,",
-      "Matheus Fernandes, Rey Vaqueiro, Syon Trio,",
-      "Núzio Medeiros, Dennis DJ e DJ Topo"
-    ],
-
-    "link_lista": "",
-
-    "link_ingresso": "https://vendas.ticketmaker.com.br/evento/reveillon-destino-2027-pacotes/6888-812/RIOET"
+    "link_ingresso": "https://zig.tickets/eventos/tava-te-esperando-amor-0808?cupom=RIOET"
   }
 
 
-    ,
+  ,
 
+
+  {
+    "id": "FURDUNÇO-DO-BIEL",
+    "nome": "FURDUNÇO DO BIEL 🔥",
+
+    "tags": [
+      "destaque"
+    ],
+
+    "destaque": true ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "sábado",
+    "data": "08/08/2026",
+    "horario": "21h às 04h",
+
+    "local": "PARQUE BAR",
+
+    "imagem": "images/eventos/parque.png",
+
+    "o_que_vai_rolar": [
+     "FUNK A NOITE TODA\n📝 Lista Vip Raphael Mattos até 23h:\n🚺 VIP | 🚹R$60,00"
+    ],
+
+    "lineup": [
+      "BIEL DO FURNDUNCINHO (funk)\n& convidados"
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "https://forms.gle/KYtggyTzCSDaMYGp8",
+
+    "link_ingresso": "https://zig.tickets/eventos/parque-sabado-08ago?cupom=RIOET "
+  }
+
+
+  ,
+
+
+  {
+    "id": "DJ-ZULLU-ALDEIA",
+    "nome": "DJ ZULLU NO ALDEIA",
+
+    "tags": [
+      "destaque"
+    ],
+
+    "destaque": true ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "sábado",
+    "data": "08/08/2026",
+    "horario": "21h às 04h",
+
+    "local": "ALDEIA LAGOA",
+
+    "imagem": "images/eventos/aldeia.png",
+
+    "o_que_vai_rolar": [
+     "🔉 Funk • Brasilidades • Open Format\n📝 Lista Vip Raphael Mattos:\n🚺VIP até 23h\n🚹R$60 até 22:30 | 80 até 23h"
+    ],
+
+    "lineup": [
+      "**🔉DJ ZULLU** • Fragoso • PG • Bruna Areas • Júlia Bisagio"
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "https://forms.gle/mnJTaNAcZvo2Mbmu9",
+
+    "link_ingresso": "https://zig.tickets/eventos/aldeia-sabado-0808?cupom=RIOET"
+}
+
+
+  ,
+  
+  
   
 
   {
-    "id": "reveillon-milagres-2027",
-    "nome": "RÉVEILLON MILAGRES 2027",
+    "id": "isso-nao-e-uma-festa",
+    "nome": "ISSO NÃO É UMA FESTA 🟠✖️",
 
-    "tags": [ 
-      "reveillon"   
+    "tags": [
+      "PREMIUM",
+      "OPEN BAR"
     ],
 
     "destaque": false ,
 
     
-    "codigo": "RIOET",
-    "dia-da-semana": "domingo até quinta",
-    "data": "27/12 até 31/12",
-    "horario": "",
+    "codigo": "ISSONAOEUMRIOET",
+    "dia-da-semana": "sábado",
+    "data": "15/08/2026",
+    "horario": "23h às 08h",
 
-    "local": "são miguel dos milagres, alagoas",
+    "local": "A DEFINIR",
 
-    "imagem": "images/eventos/reveillon-milagres.png",
+    "imagem": "images/eventos/ineuf.png",
 
     "o_que_vai_rolar": [
-     "Somos um encontro anual criado para conectar pessoas através de experiências compartilhadas. Música, cultura, natureza e conexão humana guiam cada momento."
+     "🍸Ultra Premium Full Open Bar\n\nNunca foi sobre lugar.",
+     "Nunca foi sobre música.",
+    "Nunca foi sobre uma noite.\n\n",
+  "",
+  "Você sabe qual o X da questão?\n\n",
+  "",
+  "Desde a primeira vez que você entrou",
+  "alguma coisa mudou.\n\n",
+  "",
+  "Sempre foi sobre você, e na hora, parecia imperceptível, mas vc saiu diferente.",
+  "E depois voltou.",
+  "E mudou de novo.\n\n",
+  "",
+  "Versões suas foram ficando pelo caminho e outras começaram a surgir.\n\n",
+  "",
+  "Algumas você reconhece.",
+  "Outras, nem tanto.\n\n",
+  "",
+  "O X não é o fim.",
+  "É o encontro.\n\n",
+  "",
+  "De quem você foi.",
+  "De quem você achou que era.",
+  "E de quem você ainda pode ser.\n\n",
+  "",
+  "Aqui, nada se repete.",
+  "Tudo se multiplica.",
+  "Inclusive você.\n\n",
+  "",
+  "ISSO NÃO É UMA FESTA.",
+  "É o lugar onde todas as suas versões se encontram e O X da questão está dentro de você."
 
-,
-" ",
-
-"Há 15 anos, nos reunimos na Rota Ecológica dos Milagres, um lugar que já carrega sua própria magia"
-,
-" /n",
-
-"**Tipos de Ingresso:**\n* COMBOS FESTAS: "
-,
-"27, 28, 29, 30 e 31 de Dezembro "
-,
-"* MINI COMBO: Virada 31 + 2 festas à escolha"
-,
-"* AVULSO VIRADA: Somente a festa do dia 31 (All Inclusive)"
-  
     ],
 
-    "lineup": [ "* 27 DEZ — Xique Xique: Nattan & Brunetta | Open Bar"
-,
-"* 28 DEZ — Seriguela: Menos é Mais & Syon Trio | Open Bar"
-,
-"* 29 DEZ — Borogodó: Pedro Sampaio & Banda EVA | Open Bar"
-,
-"* 30 DEZ — Novidades em Breve | Open Bar"
-,
-"* 31 DEZ — Réveillon dos Milagres: Matheus Fernandes, Pontifexx e Locos DJs | All Inclusive "
-
+    "lineup": [
+      "🎯 Mais revelações em breve"
     ],
 
     "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
@@ -140,10 +284,520 @@
 
     "link_lista": "",
 
+    "link_ingresso": "https://www.sympla.com.br/evento/isso-nAo-E-uma-festa--10th-edition/3431042?d=ISSONAOEUMRIOET"
+}
 
 
-    "link_ingresso": "https://cart.ingresse.com/2787127b-533d-4579-b769-5d01f0355e35/tickets?cod=RIOET"
+  ,
 
+
+{
+    "id": "esbornia-gramado",
+    "nome": "CURTA ESBÓRNIA 👑 GRAMADO-RS",
+
+    "tags": [
+      "premium"
+    ],
+
+    "destaque": false , 
+
+    
+    "codigo": "RIOET", 
+    "dia-da-semana": "sábado",
+    "data": "22/08/2026",
+    "horario": "23h às 08h",
+
+    "local": "EXPO GRAMADO",
+
+    "imagem": "images/eventos/esbornia-gramado.png",
+
+    "o_que_vai_rolar": [
+      "**DESCONTO EM HOSPEDAGEM E FESTA NO HOTEL NO GRUPO VIP**\n\n",
+
+     "Gramado, estamos chegando com tudo!",
+
+"Quem já conhece sabe que não tem combinação melhor do que Esbórnia e a Serra Gaúcha! A cada ano, nossa história juntos fica ainda mais incrível, e a edição deste ano promete fazer sucesso mais uma vez!",
+
+"Te prepara para o melhor **FULL OPEN BAR** na festa mais divertida do Brasil! A ESBÓRNIA vai invadir a ExpoGramado e promete quebrar T-U-D-O.\n\n",
+
+"**NOSSO EVENTO:**",
+
+"— Full open bar",
+
+"— Magic Shots",
+
+"— Secret Garden",
+
+"— Samba Real",
+
+"— Brinquedos",
+
+"— Ativações",
+
+"— Amanhecer",
+
+"— Amigos",
+
+"e muita diversão."
+    ],
+
+    "lineup": [
+      "— Esbórnia Music Stage"
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "link_ingresso": "https://vitrine.baladapp.com.br/pt-BR/eventos/coolture-esbornia-full-open-bar/8634?promocao=RIOET"
+}
+
+
+,
+  
+
+{
+    "id": "mixed-by-mixed",
+    "nome": "❌ MIXED BY MIXED❌ 10 anos",
+
+    "tags": [
+      "premium",
+      "open bar"
+    ],
+
+    "destaque": false ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "sábado",
+    "data": "05/09/2026",
+    "horario": "23h às 08h",
+
+    "local": "PRAÇA DA APOTEOSE",
+
+    "imagem": "images/eventos/mixed.png",
+
+    "o_que_vai_rolar": [
+     "10 anos de história, 10 anos de mixed! Vamos pintar o Rio de Janeiro de VERMELHO NA MAIOR MIXED DA HISTÓRIA\n**🥃 Full Open Bar Premium**\n**🍔 Open Food - TT, Japa, Spoleto, Dominos, Casa Do Pão de Queijo e muito mais"
+    ],
+
+    "lineup": [
+      "🎯 Mais revelações em breve"
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "link_ingresso": "https://www.sympla.com.br/evento/mixed-by-mixed--all-inclusive-10-anos/3441158?d=RIOET"
+}
+
+
+,
+
+
+{
+    "id": "better-days",
+    "nome": "BETTER DAYS",
+
+    "tags": [
+      "premium",
+      "open bar"
+    ],
+
+    "destaque": false ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "SÁBADO",
+    "data": "05/09/2026",
+    "horario": "23h às 08h",
+
+    "local": "A REVELAR",
+
+    "imagem": "images/eventos/better-days.png",
+
+    "o_que_vai_rolar": [
+     "Fim de semana épico de feriado com 12 horas de **Full Open Bar** e surpresas inimagináveis. Viva o surreal! 🎖️"
+    ],
+
+    "lineup": [
+      "🎯 Mais revelações em breve"
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "link_ingresso": "https://www.sympla.com.br/evento/we-make-better-days-i-rio-edition-i-05-09-26/3457469?d=RIOET"
+}
+
+
+,
+
+
+  {
+    "id": "reveillon-destino-2027",
+    "nome": "RÉVEILLON DESTINO 2027",
+    "tags": [
+      "reveillon"
+    ],
+    "categoria_reveillon": "nordeste",
+    "destaque": false,
+    "codigo": "RIOET",
+    "dia-da-semana": "sábado até quinta",
+    "data": "26/12 até 31/12",
+    "horario": "",
+    "local": "Itacimirim, Bahia",
+    "imagem": "images/eventos/reveillon-destino.png",
+    "o_que_vai_rolar": [
+      "FULL OPEN BAR EM TODAS AS FESTAS",
+      "VIRADA ALL INCLUSIVE"
+    ],
+    "lineup": [
+      "Luan Santana, Léo Foguete, Nattan,",
+      "Menos é Mais, Banda Eva, João Gomes,",
+      "Henry Freitas, Pedro Sampaio, Dubdogz,",
+      "Matheus Fernandes, Rey Vaqueiro, Syon Trio,",
+      "Núzio Medeiros, Dennis DJ e DJ Topo"
+    ],
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+    "link_lista": "",
+    "link_ingresso": "https://vendas.ticketmaker.com.br/evento/reveillon-destino-2027-pacotes/6888-812/RIOET"
   }
 
+
+  , 
+
+{
+    "id": "alma-reveillon",
+    "nome": "ALMA RÉVEILLON 2027",
+
+    "tags": [
+      "reveillon"
+    ],
+    "categoria_reveillon": "nordeste",
+
+    "destaque": false , 
+
+    
+    "codigo": "RIOET", 
+    "dia-da-semana": "domingo até quarta-feira",
+    "data": "27/12 até 31/12",
+    "horario": "",
+
+    "local": "Boipeba, Bahia",
+
+    "imagem": "images/eventos/alma-reveillon.png",
+
+    "o_que_vai_rolar": [
+    
+  "Paixão por esse paraíso",
+  "De corpo e ALMA baianas",
+  "E como mestre Morais Moreira cantava: \"Mancha de dendê não sai\"",
+  "A cada ano novo aqui passado, nosso amor pela ilha só cresce",
+  "E é com esse sentimento batendo forte no peito que a gente convida vocês",
+  "Verão que vem tem MUITO mais, viu?",
+  "Novas festas, atrações, marcas e - se YEMANJÁ quiser - MUITA gente linda e feliz com o pé na areia de novo!",
+  "Serão ~ MAIS UMA VEZ ~ 5 dias de festas Open Bar Premium na ilha mais incrível do Brasil, nos dias 27, 28, 29, 30 e 31 de Dezembro de 2025!",
+  "MUITO AXÉ e VEM 2026!\n\n",
+  "",
+  "**✦ Nossa programação de 5 Festas Open Bar Premium ✦**",
+  "27/12 ~ NEW ~ Roda de Praia com +5521 ~ 23h às 06h",
+  "28/12 ~ NEW ~ Isso Não É Um Sunrise ~ 23h às 06h",
+  "29/12 ~ NEW ~ MOMO & Biribiri ~  23h às 06h",
+  "30/12 ~ NEW ~ Luau do DDP ~ 23h às 06h",
+  "31/12 ~ A L M A RÉVEILLON ~ 22h as 06h\n\n",
+  "",
+  "**✦ Open Bar Premium de 27, 28, 29, 30 e 31 ✦**",
+  "BEEFEATER London Gin ~ ABSOLUT Vodka ~  JAMESON Irish Whiskey ~ CERVEJA Premium",
+  "APEROL SPRITZ ~ RED BULL ~ TÔNICA ~ REFRI ~ SUCOS ~ ÁGUA DE CÔCO ~ ÁGUA\n\n",
+  "",
+  "**✦ Full Open Premium Bar da virada ✦**",
+  "Prosecco Ponto Nero Brut by CASA VALDUGA",
+  "+ TUDO dos dias anteriores!\n\n",
+  "",
+  "**~ H a p p y  N e w  i l h a ~**"
+
+    ],
+
+    "lineup": [
+      "27.12 | Roda De Praia com +5521",
+      "28.12 | Isso Não É Um Sunrise",
+      "29.12 | MOMO & Biribiri",
+      "30.12 | Luau do DDP",
+      "31.12 | Alma Réveillon"
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "link_ingresso": "https://www.sympla.com.br/evento/a-l-m-a-reveillon-2027-boipeba/3254347?d=RIOET"
+}
+
+
+,
+
+
+{
+    "id": "reveillon-amore",
+    "nome": "RÉVEILLON AMORÉ 2027",
+
+    "tags": [
+      "reveillon"
+    ],
+    "categoria_reveillon": "nordeste",
+
+    "destaque": false , 
+
+    
+    "codigo": "RIOET", 
+    "dia-da-semana": "sábado até quinta-feira",
+    "data": "26/12 até 31/12",
+    "horario": "",
+
+    "local": "Maracaipe, Pernambuco",
+
+    "imagem": "images/eventos/amore-reveillon.png",
+
+    "o_que_vai_rolar": [
+     "No fim do ano, a gente não vira a página. Vive o melhor capítulo. De 26 a 31 de dezembro de 2025, Maracaípe te espera pra viver coisas incríveis no paraíso. Até porque #AmorÉisso. Tem alguém pronto aí? ✨\n\n",
+  "",
+  "🐚 Réveillon Amoré & Moréa Beach Club | 26 a 31 de dezembro",
+  "✨ Praia de Maracaípe, Balneário de Porto de Galinhas/PE\n\n",
+  "",
+  "**🌙 26 DEZ - Moréa Beach Club**",
+  "É O Tchan",
+  "Felipe Amorim",
+  "Syon Trio",
+  "Ric Rulie",
+  "Da Mata",
+  "Korossy\n\n",
+  "",
+  "**☀️ 27 DEZ - Moréa Beach Club**\n\n",
+  "Sorriso Maroto",
+  "Bell Marques",
+  "Felipe Mar",
+  "Da Mata",
+  "Korossy",
+  "",
+  "**🌙 27 DEZ - Benção | Open Bar**",
+  "Anitta",
+  "Dennis",
+  "Doze Por Oito",
+  "Ric Rulie\n\n",
+  "",
+  "**☀️ 28 DEZ - Moréa Beach Club**",
+  "Henry Freitas",
+  "Dilsinho",
+  "Ariel B",
+  "Ric Rulie",
+  "Da Mata\n\n",
+  "",
+  "**🌙 28 DEZ - Muvuka | Open Bar**",
+  "Menos É Mais",
+  "Xand Avião",
+  "Locos",
+  "Korossy\n\n",
+  "",
+  "**☀️ 29 DEZ - Moréa Beach Club**",
+  "Luan Santana",
+  "Léo Foguete",
+  "Tília",
+  "Locos",
+  "Cix",
+  "Da Mata\n\n",
+  "",
+  "**🌙 29 DEZ - Memories | Open Bar**",
+  "Martin Garrix",
+  "Cat Dealers",
+  "Pontifexx\n\n",
+  "",
+  "**☀️ 30 DEZ - Moréa Beach Club**",
+  "Léo Santana",
+  "Matheus e Kauan",
+  "Kelner",
+  "Cix",
+  "DaMata\n\n",
+  "",
+  "**🌙 30 DEZ - Borogodó | Open Bar**",
+  "Nattan",
+  "Xanddy Harmonia",
+  "Korossy\n\n",
+  "",
+  "**🌙 31 DEZ - Réveillon Amoré | Open Bar & Open Food** ",
+  "Pedro Sampaio",
+  "Banda Eva",
+  "Matheus Fernandes",
+  "Rafa Mesquita",
+  "Kelner",
+  "Korossy"
+    ],
+
+    "lineup": [
+      "🎤Ivete Sangalo • Nattan • Luan Santana • Atração Surpresa • Pedro Sampaio • João Gomes • Menos É Mais • Léo Santana",
+       "Xand Avião • Matheus E Kauan • Atração Surpresa •  Belo • Dennis • Henry Freitas • Léo Foguete • Felipe Amorim • Timbalada",
+      " Matheus Fernandes • Syon Trio • Tília "
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "link_ingresso": "https://www.sympla.com.br/evento/reveillon-amore-2027/3390641?d=RIOET"
+}
+
+
+,
+
+
+{
+    "id": "reveillon-areia",
+    "nome": "RÉVEILLON AREIA 2027",
+
+    "tags": [
+      "reveillon"
+    ],
+    "categoria_reveillon": "buzios",
+
+    "destaque": false , 
+
+    
+    "codigo": "RIOET", 
+    "dia-da-semana": "domingo até sábado",
+    "data": "27/12 até 02/01",
+    "horario": "",
+
+    "local": "CLUBE ARETÊ BÚZIOS",
+
+    "imagem": "images/eventos/areia-reveillon.png",
+
+    "o_que_vai_rolar": [
+     "Entre o mar, a música e a areia, nasce um encontro de pessoas que escolhem viver o verão com presença, liberdade e intensidade na medida certa.\n\n",
+  "",
+  "Dias de sol, esporte e bem-estar. Noites de pista cheia, encontros improváveis e memórias que ficam muito depois da última música.\n\n",
+  "",
+  "Com estrutura premium, open bar, experiências sensoriais e uma curadoria pensada nos detalhes, o Areia não é só uma festa de virada.",
+  "É o lugar onde um novo ciclo começa antes mesmo da meia-noite.\n\n",
+  "",
+  "⸻",
+  "Programação Festas ",
+  "",
+  "**27/12 - Domingo**",
+  "14h às 20h :: Vizu Boat Party\n\n",
+  "",
+  "**28/12 - Segunda**",
+  "15h às 22h :: Mixed by Mixed\n\n",
+  "",
+  "**29/12 - Terça**",
+  "15h às 22h :: Vizu\n\n ",
+  "",
+  "**30/12 - Quarta **",
+  "15h às 22h :: Areia Sunset\n\n ",
+  "",
+  "**31/12 - Quinta**",
+  "21h às 6h :: Réveillon Areia\n\n",
+  "",
+  "**02/01 - Sábado**",
+  "15h às 22h :: Welcome 2027 w/ Arca de Noé DJ Set\n\n",
+  "",
+  "⸻",
+  "**🏃 BRISA BÚZIOS RUNNING**",
+  "",
+  "A corrida oficial do Réveillon Areia e da Maré Semana Santa.",
+  "",
+  "Mais do que uma prova, um convite para viver Búzios em movimento, conectando esporte, bem-estar e a energia única do verão.\n\n",
+  "",
+  "**📅 30/12**",
+  "",
+  "08h :: Concentração + retirada de camisas ",
+  "09h :: Largada",
+  "10h às 12h :: After",
+  "",
+  "Distâncias: 5km e 10km",
+  "",
+  "**🏅 Premiação – 5km**",
+  "",
+  "1º Lugar :: R$ 500 + Kit Areia",
+  "2º Lugar :: R$ 300 + Kit Areia",
+  "3º Lugar :: R$ 150 + Kit Areia",
+  "",
+  "**🏅 Premiação – 10km**",
+  "",
+  "1º Lugar :: R$ 2.000 + Kit Areia",
+  "2º Lugar :: R$ 1.000 + Kit Areia",
+  "3º Lugar :: R$ 500 + Kit Areia",
+  "",
+  "⸻",
+  "**🥂 Open Bar Premium**",
+  "",
+  "Vodka, gin, whisky, cerveja e energético premium. Drinks exclusivos, shots, soft drinks, sucos, água de coco, refrigerantes e espumante (noite do dia 31)",
+  "",
+  "⸻",
+  "**🍾 All Inclusive dia 31**",
+  "",
+  "Culinária japonesa, italiana, mineira, americana, buffet, finger foods e café da manhã completo"
+    ],
+
+    "lineup": [
+      "🎯 Mais revelações em breve"
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "link_ingresso": "https://cart.ingresse.com/66331616-1b53-4c01-9dca-0d926263538c/tickets?coupon=RIOET"
+}
+
+
+,
+  {
+    "id": "reveillon-milagres-2027",
+    "nome": "RÉVEILLON MILAGRES 2027",
+    "tags": [
+      "reveillon"
+    ],
+    "categoria_reveillon": "nordeste",
+    "destaque": false,
+    "codigo": "RIOET",
+    "dia-da-semana": "domingo até quinta",
+    "data": "27/12 até 31/12",
+    "horario": "",
+    "local": "São Miguel dos Milagres, Alagoas",
+    "imagem": "images/eventos/reveillon-milagres.png",
+    "o_que_vai_rolar": [
+      "Somos um encontro anual criado para conectar pessoas através de experiências compartilhadas. Música, cultura, natureza e conexão humana guiam cada momento.\n\ná 15 anos, nos reunimos na Rota Ecológica dos Milagres, um lugar que já carrega sua própria magia",
+      " \n",
+      "**Tipos de Ingresso:**\n* COMBOS FESTAS: ",
+      "27, 28, 29, 30 e 31 de Dezembro ",
+      "* MINI COMBO: Virada 31 + 2 festas à escolha",
+      "* AVULSO VIRADA: Somente a festa do dia 31 (All Inclusive)"
+    ],
+    "lineup": [
+      "* 27 DEZ — Xique Xique: Nattan & Brunetta | Open Bar",
+      "* 28 DEZ — Seriguela: Menos é Mais & Syon Trio | Open Bar",
+      "* 29 DEZ — Borogodó: Pedro Sampaio & Banda EVA | Open Bar",
+      "* 30 DEZ — Novidades em Breve | Open Bar",
+      "* 31 DEZ — Réveillon dos Milagres: Matheus Fernandes, Pontifexx e Locos DJs | All Inclusive "
+    ],
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+    "link_lista": "",
+    "link_ingresso": "https://cart.ingresse.com/2787127b-533d-4579-b769-5d01f0355e35/tickets?cod=RIOET"
+  }
 ]

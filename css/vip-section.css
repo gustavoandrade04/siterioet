@@ -1,84 +1,120 @@
-/* ==========================================================
-   VIP SECTION
-   Projeto Conexão • Rio Entretenimento
-========================================================== */
-
-
-/* ==========================================================
-   SECTION
-========================================================== */
-
 .vip-section{
-
     background:var(--preto-secundario);
 }
 
-
-/* ==========================================================
-   CONTAINER
-========================================================== */
-
 .vip-section .container{
-
     display:flex;
     align-items:center;
     justify-content:space-between;
-
-    gap:var(--space-3xl);
-
-    padding:var(--space-3xl);
-
-    background:var(--card);
-
+    position:relative;
+    overflow:hidden;
+    gap:var(--space-lg);
+    padding:var(--space-lg) var(--space-xl);
+    background:linear-gradient(105deg, #1e1b20 0%, #43102e 58%, #85005d 100%);
     border:1px solid var(--borda);
-
     border-radius:var(--radius-xl);
-
     box-shadow:var(--shadow-md);
 }
 
+.vip-section .container::after{
+    content:"";
+    position:absolute;
+    inset:-80% 18% -80% auto;
+    width:160px;
+    background:rgba(255,255,255,.06);
+    transform:skewX(-25deg);
+}
 
-/* ==========================================================
-   CONTENT
-========================================================== */
+.vip-logo,
+.vip-content,
+.vip-action{
+    position:relative;
+    z-index:1;
+}
+
+.vip-logo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex:0 0 76px;
+    width:76px;
+    height:76px;
+    padding:10px;
+    border:1px solid rgba(255,255,255,.18);
+    border-radius:50%;
+    background:rgba(15,15,16,.5);
+}
+
+.vip-logo img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
 
 .vip-content{
-
     display:flex;
-    flex-direction:column;
-
-    gap:var(--space-md);
-
     flex:1;
+    flex-direction:column;
+    gap:var(--space-xs);
+}
+
+.vip-eyebrow{
+    color:#f1a8d5;
+    font-size:var(--font-xs);
+    font-weight:var(--bold);
+    letter-spacing:.12em;
+    text-transform:uppercase;
 }
 
 .vip-content h2{
-
     color:var(--branco);
-
     font-size:var(--font-2xl);
-
     line-height:1.2;
 }
 
 .vip-content p{
-
     max-width:600px;
-
     color:var(--texto-secundario);
-
     font-size:var(--font-lg);
 }
 
-
-/* ==========================================================
-   ACTION
-========================================================== */
-
 .vip-action{
-
     display:flex;
     align-items:center;
-
     flex-shrink:0;
+}
+
+.vip-action .btn-main{
+    background:linear-gradient(135deg, #8a0bb1, #650786);
+    box-shadow:none;
+}
+
+@media (max-width: 768px){
+    .vip-section .container{
+        flex-wrap:wrap;
+        padding:var(--space-lg);
+    }
+
+    .vip-logo{
+        flex-basis:58px;
+        width:58px;
+        height:58px;
+    }
+
+    .vip-content{
+        flex-basis:calc(100% - 74px);
+    }
+
+    .vip-content h2{
+        font-size:var(--font-xl);
+    }
+
+    .vip-content p{
+        font-size:var(--font-sm);
+    }
+
+    .vip-action,
+    .vip-action .btn-main{
+        width:100%;
+    }
 }

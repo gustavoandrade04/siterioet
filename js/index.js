@@ -29,15 +29,18 @@ fetch('eventos.json')
 
                 destaque.forEach(evento => {
 
-                    let status;
+                    let status = "";
+                    let statusClass = "";
 
                     if (evento.link_lista) {
 
                         status = "Lista VIP";
+                        statusClass = "status-vip";
 
                     } else if (evento.link_ingresso) {
 
-                        status = "Ingressos antecipados";
+                        status = "Ingressos com desconto";
+                        statusClass = "status-ingresso";
 
                     } else {
 
@@ -86,7 +89,7 @@ fetch('eventos.json')
 
                                 </p>
 
-                                <p class="status">
+                                <p class="status ${statusClass}">
 
                                     ${status}
 

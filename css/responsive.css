@@ -1,69 +1,122 @@
-/* ==========================================================
-   RESPONSIVE
-   Projeto Conexão • Rio Entretenimento
-========================================================== */
-
-
-/* ==========================================================
-   DESKTOP GRANDE
-   Até 1400px
-========================================================== */
-
-@media (max-width: 1400px){
-
-}
-
-
-
-/* ==========================================================
-   NOTEBOOK
-   Até 1200px
-========================================================== */
-
-@media (max-width: 1200px){
-
-}
-
-
-
-/* ==========================================================
-   TABLET
-   Até 992px
-========================================================== */
-
 @media (max-width: 992px){
+    :root{
+        --header-height:72px;
+    }
 
+    .header .container{
+        gap:var(--space-sm);
+    }
+
+    .logo-area img{
+        width:44px;
+    }
+
+    .brand h2{
+        font-size:1rem;
+        letter-spacing:.4px;
+    }
+
+    .menu-toggle{
+        display:inline-flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        gap:5px;
+        width:44px;
+        height:44px;
+        border:1px solid var(--borda);
+        border-radius:var(--radius-sm);
+        background:var(--card);
+        cursor:pointer;
+    }
+
+    .menu-toggle span{
+        display:block;
+        width:20px;
+        height:2px;
+        border-radius:2px;
+        background:var(--branco);
+    }
+
+    .nav-menu{
+        position:absolute;
+        top:100%;
+        right:0;
+        left:0;
+        display:none;
+        margin:0;
+        padding:var(--space-sm) var(--space-lg) var(--space-lg);
+        border-bottom:1px solid var(--borda);
+        background:rgba(15,15,16,.98);
+        box-shadow:var(--shadow-md);
+    }
+
+    .nav-menu.is-open{
+        display:block;
+    }
+
+    .nav-menu ul{
+        align-items:stretch;
+        flex-direction:column;
+        gap:0;
+    }
+
+    .nav-menu a{
+        display:block;
+        padding:var(--space-sm) 0;
+    }
+
+    .header .btn-main{
+        padding:.75rem 1rem;
+        font-size:var(--font-sm);
+    }
+
+    .featured-header{
+        align-items:flex-start;
+        flex-direction:column;
+        margin-bottom:var(--space-lg);
+    }
 }
 
-
-
-/* ==========================================================
-   TABLET PEQUENO
-   Até 768px
-========================================================== */
-
-@media (max-width: 768px){
-
+@media (min-width: 993px){
+    .menu-toggle{
+        display:none;
+    }
 }
-
-
-
-/* ==========================================================
-   CELULAR
-   Até 576px
-========================================================== */
 
 @media (max-width: 576px){
+    .container{
+        padding:0 var(--space-sm);
+    }
 
-}
+    .brand h2{
+        font-size:.82rem;
+    }
 
+    .header .btn-main{
+        padding:.65rem .7rem;
+        font-size:.72rem;
+    }
 
+    .menu-toggle{
+        width:40px;
+        height:40px;
+    }
 
-/* ==========================================================
-   CELULARES PEQUENOS
-   Até 400px
-========================================================== */
+    .hero,
+    section{
+        padding:var(--space-xl) 0;
+    }
 
-@media (max-width: 400px){
+    .cards{
+        grid-template-columns:minmax(0, 1fr);
+    }
 
+    .card-content{
+        padding:var(--space-md);
+    }
+
+    .featured-link{
+        align-self:flex-start;
+    }
 }

@@ -75,6 +75,10 @@ async function loadEvent() {
             rel="noopener noreferrer"
             aria-label="Entrar no Grupo VIP do WhatsApp"
         >
+            <div class="vip-event-banner__logo" aria-hidden="true">
+                <img src="../images/logo/logo.PNG" alt="">
+            </div>
+
             <div class="vip-event-banner__content">
                 <span class="vip-event-banner__eyebrow">
                     Comunidade Rioet

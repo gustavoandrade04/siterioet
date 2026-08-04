@@ -145,6 +145,31 @@
     font-size:var(--font-sm);
 }
 
+.status{
+    display:inline-flex;
+    align-items:center;
+    width:max-content;
+    margin-top:auto;
+    padding:.45rem .7rem;
+    border-radius:var(--radius-pill);
+    font-size:var(--font-xs) !important;
+    font-weight:var(--bold);
+    letter-spacing:.04em;
+    text-transform:uppercase;
+}
+
+.status-vip{
+    border:1px solid rgba(37, 211, 102, .5);
+    background:rgba(37, 211, 102, .12);
+    color:#72ec9d !important;
+}
+
+.status-ingresso{
+    border:1px solid rgba(47, 128, 237, .55);
+    background:rgba(47, 128, 237, .13);
+    color:#78b7ff !important;
+}
+
 
 /* ==========================================================
    CONTADOR
