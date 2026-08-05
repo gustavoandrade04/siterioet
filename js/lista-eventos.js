@@ -60,7 +60,7 @@ function renderizar(eventos) {
 
     catalogo.innerHTML = eventos.map(evento => `
         <a class="catalog-card" href="evento.html?id=${encodeURIComponent(evento.id)}">
-            ${evento.imagem ? `<img src="../${escapar(evento.imagem)}" alt="${escapar(evento.nome)}">` : ""}
+            ${evento.imagem_card ? `<img src="../${escapar(evento.imagem_card)}" alt="${escapar(evento.nome)}">` : ""}
             <div class="catalog-card-content">
                 <span class="event-tag">${escapar((evento.tags || ["Evento"])[0])}</span>
                 <h2>${escapar(evento.nome)}</h2>

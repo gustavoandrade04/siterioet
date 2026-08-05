@@ -118,3 +118,5 @@
         width:100%;
     }
 }
+
+.contact-section{background:var(--preto-secundario)}.contact-section .container{display:flex;justify-content:center}.contact-button svg{width:1.3em;height:1.3em;fill:currentColor;flex-shrink:0}

@@ -76,3 +76,4 @@
     opacity:.8;
 
 }
+.featured-action{display:flex;justify-content:center}.featured-action .featured-link{display:inline-flex;margin-top:var(--space-xl)}

@@ -34,7 +34,7 @@ fetch('eventos.json')
 
                     if (evento.link_lista) {
 
-                        status = "Lista VIP";
+                        status = `Lista VIP até ${evento.horario_lista_vip || "a confirmar"}`;
                         statusClass = "status-vip";
 
                     } else if (evento.link_ingresso) {
@@ -56,8 +56,8 @@ fetch('eventos.json')
 
                             <div class="card-image">
 
-                                ${evento.imagem
-                                    ? `<img src="${evento.imagem}" alt="${evento.nome}">`
+                                ${evento.imagem_card
+                                    ? `<img src="${evento.imagem_card}" alt="${evento.nome}">`
                                     : ""
                                 }
 
@@ -67,7 +67,7 @@ fetch('eventos.json')
 
                                 <span class="codigo">
 
-                                  código: ${evento.codigo}
+                                  ${evento.data.split("/").slice(0, 2).join("/")}, ${(evento["dia-da-semana"] || "").replace(/-feira,?/i, "").trim().toLowerCase()}
 
                                 </span>
 
@@ -85,7 +85,7 @@ fetch('eventos.json')
 
                                 <p>
 
-                                     ${evento.data}
+                                     código: ${evento.codigo || ""}
 
                                 </p>
 
