@@ -66,6 +66,30 @@
         padding:var(--space-sm) 0;
     }
 
+    .mobile-social-links{display:none}
+
+    .mobile-social-icons{
+        display:flex;
+        align-items:center;
+        gap:.75rem;
+        padding-top:var(--space-sm);
+    }
+
+    .mobile-social-icons a{
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        width:2.3rem;
+        height:2.3rem;
+        padding:0;
+        border:1px solid var(--borda);
+        border-radius:50%;
+        color:var(--branco);
+    }
+
+    .mobile-social-icons a::after{display:none}
+    .mobile-social-icons svg{width:1.15rem;height:1.15rem;fill:currentColor}
+
     .header .btn-main{
         padding:.75rem 1rem;
         font-size:var(--font-sm);
@@ -108,6 +132,14 @@
         padding:var(--space-xl) 0;
     }
 
+    .hero h1{
+        max-width:100%;
+        font-size:clamp(2.25rem, 11vw, 3.25rem);
+        letter-spacing:-1px;
+        overflow-wrap:anywhere;
+        word-break:break-word;
+    }
+
     .cards{
         grid-template-columns:minmax(0, 1fr);
     }
@@ -118,5 +150,32 @@
 
     .featured-link{
         align-self:flex-start;
+    }
+
+    /* Mantém o cabeçalho compacto: as redes sociais entram na lista do menu. */
+    .header .container{gap:.45rem;padding-left:.75rem;padding-right:.75rem}
+    .logo-area{min-width:0;gap:.45rem}
+    .logo-area img{width:38px}
+    .brand h2{font-size:clamp(.64rem,3.2vw,.78rem);letter-spacing:0;white-space:nowrap}
+    .instagram-link,.whatsapp-link{display:none}
+
+    /* Duas colunas sem cortar títulos ou botões dos eventos. */
+    .cards,.catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem}
+    .card,.catalog-card,.card-content,.catalog-card-content{min-width:0;max-width:100%}
+    .card-content h3,.catalog-card-content h2{
+        font-size:.9rem;
+        line-height:1.28;
+        display:block;
+        overflow:visible;
+        overflow-wrap:anywhere;
+        word-break:break-word;
+    }
+    .status,.catalog-access{
+        box-sizing:border-box;
+        width:100%;
+        justify-content:center;
+        white-space:normal;
+        text-align:center;
+        overflow-wrap:anywhere;
     }
 }

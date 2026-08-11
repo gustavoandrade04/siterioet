@@ -245,7 +245,7 @@
       "OPEN BAR"
     ],
 
-    "destaque": false ,
+    "destaque": true ,
 
     
     "codigo": "ISSONAOEUMRIOET",
@@ -253,7 +253,7 @@
     "data": "15/08/2026",
     "horario": "23h às 08h",
 
-    "local": "A DEFINIR",
+    "local": "PRAÇA DA APOTEOSE",
 
     "imagem_card": "images/eventos/ineuf.png",
 
