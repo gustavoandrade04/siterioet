@@ -52,7 +52,7 @@ fetch('eventos.json')
 
                         <article 
                             class="card"
-                            onclick="window.location.href='pages/evento.html?id=${evento.id}'">
+                            onclick="window.location.href='pages/evento.html?id=${encodeURIComponent(evento.id)}&voltar=index.html'">
 
                             <div class="card-image">
 

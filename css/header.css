@@ -91,6 +91,52 @@
     margin-left:auto;
 }
 
+.header-search {
+    display: flex;
+    align-items: center;
+    gap: .45rem;
+    flex: 0 0 auto;
+}
+
+.header-search input {
+    display: none;
+    width: 0;
+    border: 1px solid var(--borda);
+    border-radius: var(--radius-pill);
+    outline: 0;
+    background: var(--card);
+    color: var(--branco);
+    font: inherit;
+}
+
+.header-search.is-open input {
+    display: block;
+    width: clamp(140px, 15vw, 220px);
+    padding: .55rem .8rem;
+}
+
+.header-search input:focus {
+    border-color: var(--azul-claro);
+    box-shadow: 0 0 0 3px rgba(47, 128, 237, .16);
+}
+
+.header-search button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border: 1px solid var(--borda);
+    border-radius: 50%;
+    background: var(--card);
+    color: var(--branco);
+    cursor: pointer;
+}
+
+.header-search button:hover { color: var(--azul-claro); border-color: var(--azul-claro); }
+.header-search svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+
 .nav-menu ul{
     display:flex;
     align-items:center;
@@ -155,3 +201,13 @@
 .whatsapp-link{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;color:#25D366;border:1px solid rgba(37,211,102,.35);border-radius:50%;background:var(--card)}.whatsapp-link svg{width:23px;height:23px;fill:currentColor}.whatsapp-link:hover{color:var(--branco);background:#25D366;transform:translateY(-2px)}@media (max-width:576px){.whatsapp-link{width:38px;height:38px}.whatsapp-link svg{width:20px;height:20px}}
 
 .header .container{gap:var(--space-md)}.nav-menu ul{gap:1.25rem}.nav-menu a{white-space:nowrap}.instagram-link,.whatsapp-link{width:36px;height:36px}.instagram-link svg{width:18px;height:18px}.whatsapp-link svg{width:20px;height:20px}.header .btn-main{background:linear-gradient(135deg,#591062,#2f0739);box-shadow:0 8px 20px rgba(74,12,86,.32)}.header .btn-main:hover{box-shadow:0 14px 30px rgba(74,12,86,.48)}@media (max-width:576px){.instagram-link,.whatsapp-link{width:34px;height:34px}.instagram-link svg{width:17px;height:17px}.whatsapp-link svg{width:19px;height:19px}}
+
+@media (max-width: 576px) {
+    .header-search { position: relative; }
+    .header-search.is-open input {
+        position: absolute;
+        top: calc(100% + .5rem);
+        right: 0;
+        width: min(62vw, 250px);
+    }
+}

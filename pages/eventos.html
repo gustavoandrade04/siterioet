@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css?v=9">
+    <link rel="stylesheet" href="../css/style.css?v=10">
 </head>
 <body data-catalogo="eventos">
     <div id="site-header"></div>
@@ -20,10 +20,18 @@
                 <h1>Todos os eventos</h1>
                 <p>Confira o calendário completo da Rio Entretenimento em ordem cronológica.</p>
             </div>
+            <form id="buscar" class="event-search" role="search" novalidate>
+                <label class="sr-only" for="event-search-input">Buscar eventos</label>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.15a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+                <input id="event-search-input" name="q" type="search" placeholder="Busque por evento, cidade ou categoria" autocomplete="off">
+                <button type="submit">Buscar</button>
+            </form>
+            <p id="event-search-status" class="event-search-status" aria-live="polite"></p>
             <div id="catalogo-eventos" class="catalog-grid"><p>Carregando eventos...</p></div>
         </div>
     </main>
     <script src="../js/lista-eventos.js"></script>
+    <script src="../js/contact-cta.js"></script>
     <script src="../js/vertical-scroll-only.js?v=1"></script>
 </body>
 </html>

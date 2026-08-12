@@ -129,10 +129,54 @@
 
     margin-top:var(--space-sm);
 }
+
+.hero--compact {
+    min-height: 0;
+    padding: calc(var(--header-height) + var(--space-md)) 0 var(--space-xl);
+}
+
+.hero--compact .container {
+    gap: 0;
+}
+
+.hero-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: clamp(1.75rem, 4vw, 3rem);
+    text-align: center;
+}
+
+.hero-intro .hero-tag {
+    margin-bottom: .7rem;
+    font-size: clamp(.62rem, 1.4vw, .78rem);
+    letter-spacing: clamp(1.5px, .25vw, 3px);
+}
+
+.hero-intro h1 {
+    max-width: none;
+    margin: 0;
+    font-size: clamp(2.5rem, 6vw, 4.4rem);
+    white-space: nowrap;
+}
+
+.hero-intro p {
+    margin-top: .75rem;
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    line-height: 1.45;
+}
+
+@media (max-width: 576px) {
+    .hero-intro { margin-bottom: 1.5rem; }
+    .hero-intro .hero-tag { font-size: .54rem; letter-spacing: 1px; }
+    .hero-intro h1 { font-size: clamp(1.75rem, 9vw, 2.3rem); letter-spacing: -1px; }
+    .hero-intro p { margin-top: .55rem; font-size: .9rem; }
+}
 .hero-vip-banner{display:flex;align-items:center;width:min(100%,1100px);gap:clamp(1rem,2vw,2rem);margin-top:var(--space-sm);padding:clamp(1.25rem,3vw,2rem);text-align:left;background:linear-gradient(105deg,#1e1b20 0%,#43102e 58%,#85005d 100%);border:1px solid var(--borda);border-radius:var(--radius-xl);box-shadow:var(--shadow-md);overflow:hidden;position:relative}.hero-vip-banner::after{content:"";position:absolute;inset:-80% 18% -80% auto;width:160px;background:rgba(255,255,255,.06);transform:skewX(-25deg)}.hero-vip-logo,.hero-vip-content,.hero-contact-button{position:relative;z-index:1}.hero-vip-logo{display:flex;align-items:center;justify-content:center;flex:0 0 64px;width:64px;height:64px;padding:8px;border:1px solid rgba(255,255,255,.18);border-radius:50%;background:rgba(15,15,16,.5)}.hero-vip-logo img{width:100%;height:100%;object-fit:contain}.hero-vip-content{display:flex;flex:1;flex-direction:column;gap:.35rem}.hero-vip-eyebrow{color:#f1a8d5;font-size:var(--font-xs);font-weight:var(--bold);letter-spacing:.12em;text-transform:uppercase}.hero .hero-vip-content h2{max-width:none;color:var(--branco);font-size:clamp(1.35rem,2.5vw,2rem);line-height:1.2;letter-spacing:0}.hero .hero-vip-content p{max-width:600px;color:var(--texto-secundario);font-size:var(--font-md);line-height:1.5}.hero .hero-contact-button{flex-shrink:0;margin-top:0;background:linear-gradient(135deg,#25D366,#1EBE5D);font-size:var(--font-md)}.hero-contact-button svg{width:1.3em;height:1.3em;fill:currentColor;flex-shrink:0}@media (max-width:768px){.hero-vip-banner{flex-wrap:wrap;text-align:left}.hero-vip-content{flex-basis:calc(100% - 80px)}.hero .hero-contact-button{width:100%}}@media (max-width:480px){.hero-vip-banner{padding:1.25rem}.hero-vip-logo{flex-basis:52px;width:52px;height:52px}.hero-vip-content{flex-basis:calc(100% - 68px)}.hero .hero-vip-content h2{font-size:1.25rem}}
 
 .hero .hero-vip-button{flex-shrink:0;margin-top:0;background:linear-gradient(135deg,#8a0bb1,#650786);box-shadow:none}.hero .hero-vip-button:hover{box-shadow:0 12px 28px rgba(138,11,177,.35)}
 
-.hero-vip-banner{max-width:980px;padding:clamp(.9rem,1.7vw,1.35rem)}.hero-vip-logo{flex-basis:54px;width:54px;height:54px;padding:6px}.hero .hero-vip-content h2{font-size:clamp(1.15rem,2vw,1.55rem)}.hero .hero-vip-content p{font-size:var(--font-sm)}
+.hero-vip-banner{max-width:980px;padding:clamp(.7rem,1.2vw,1rem);gap:clamp(.75rem,1.5vw,1.25rem)}.hero-vip-logo{flex-basis:46px;width:46px;height:46px;padding:5px}.hero-vip-content{gap:.15rem}.hero .hero-vip-content h2{font-size:clamp(1.05rem,1.8vw,1.35rem)}.hero .hero-vip-content p{font-size:var(--font-xs);line-height:1.35}.hero .hero-vip-button{padding:.7rem 1rem;font-size:var(--font-sm)}
 
 .hero-vip-banner{background:linear-gradient(105deg,#171219 0%,#2b0b29 58%,#4a063f 100%);border-color:rgba(211,109,190,.18)}.hero-vip-banner::after{background:rgba(182,55,151,.1)}.hero .hero-vip-button{background:linear-gradient(135deg,#5a0d68,#33053e);box-shadow:0 8px 20px rgba(65,8,79,.32)}.hero .hero-vip-button:hover{box-shadow:0 14px 30px rgba(65,8,79,.5)}

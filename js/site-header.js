@@ -8,6 +8,13 @@ if (headerSlot) {
                     <img src="../images/logo/logo.PNG" alt="Rio Entretenimento">
                     <div class="brand"><h2>RIO ENTRETENIMENTO</h2></div>
                 </a>
+                <form class="header-search" action="eventos.html" role="search">
+                    <label class="sr-only" for="header-search-input">Buscar eventos</label>
+                    <input id="header-search-input" name="q" type="search" placeholder="Buscar eventos" autocomplete="off">
+                    <button type="button" aria-label="Abrir busca" aria-expanded="false">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.15a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+                    </button>
+                </form>
                 <nav class="nav-menu" aria-label="Navegação principal">
                     <ul>
                         <li><a href="../index.html">Home</a></li>
@@ -26,4 +33,18 @@ if (headerSlot) {
         </header>`;
 
     window.configurarMenuMobile?.(headerSlot);
+
+    const busca = headerSlot.querySelector(".header-search");
+    const campoBusca = busca?.querySelector("input");
+    const botaoBusca = busca?.querySelector("button");
+
+    botaoBusca?.addEventListener("click", event => {
+        if (busca.classList.contains("is-open")) return;
+        event.preventDefault();
+        busca.classList.add("is-open");
+        botaoBusca.type = "submit";
+        botaoBusca.setAttribute("aria-label", "Buscar eventos");
+        botaoBusca.setAttribute("aria-expanded", "true");
+        campoBusca.focus();
+    });
 }

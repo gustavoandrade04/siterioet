@@ -1,5 +1,19 @@
 const container = document.getElementById("evento-container");
-const id = new URLSearchParams(window.location.search).get("id");
+const parametros = new URLSearchParams(window.location.search);
+const id = parametros.get("id");
+const origem = parametros.get("voltar");
+
+function linkDeVolta(evento) {
+    const paginasValidas = ["index.html", "eventos.html", "premium.html", "reveillon.html", "carnaval.html"];
+    const paginaOrigem = String(origem || "").split("?")[0];
+
+    if (paginaOrigem === "index.html") return "../index.html";
+    if (paginasValidas.includes(paginaOrigem)) return origem;
+    if (tagsDoEvento(evento).includes("reveillon")) return "reveillon.html";
+    if (tagsDoEvento(evento).includes("carnaval")) return "carnaval.html";
+    if (tagsDoEvento(evento).includes("premium")) return "premium.html";
+    return "eventos.html";
+}
 
 function escapeHtml(value = "") {
     return String(value)
@@ -13,6 +27,8 @@ function escapeHtml(value = "") {
 function formatEventText(value = "") {
     return escapeHtml(value)
         .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+        .replace(/&lt;(?:strong|b)&gt;(.+?)&lt;\/(?:strong|b)&gt;/gi, "<strong>$1</strong>")
+        .replace(/&lt;br\s*\/?&gt;/gi, "<br>")
         .replace(/\n/g, "<br>");
 }
 
@@ -62,8 +78,12 @@ async function loadEvent() {
         }
 
         const imagem = (evento.imagem_detalhe || evento.imagem_card) ? `../${escapeHtml(evento.imagem_detalhe || evento.imagem_card)}` : "";
-        const oQueVaiRolar = evento.o_que_vai_rolar || [];
-        const artistas = evento.lineup || [];
+        const oQueVaiRolar = Array.isArray(evento.o_que_vai_rolar)
+            ? evento.o_que_vai_rolar
+            : String(evento.o_que_vai_rolar || "").split(/\r?\n/).filter(Boolean);
+        const artistas = Array.isArray(evento.lineup)
+            ? evento.lineup
+            : String(evento.lineup || "").split(/\r?\n/).filter(Boolean);
         const descricao = oQueVaiRolar.map(item => `<li>${formatEventText(item)}</li>`).join("");
         const lineup = artistas.map(item => `<li>${formatEventText(item)}</li>`).join("");
         const detalhesCount = oQueVaiRolar.length + artistas.length;
@@ -72,8 +92,10 @@ async function loadEvent() {
         const relacionados = eventos
             .filter(item => item.id !== evento.id && abaDoEvento(item) === abaAtual)
             .slice(0, limiteRelacionados);
+        const destinoVolta = linkDeVolta(evento);
+        const origemRelacionados = origem || destinoVolta.replace("../", "");
         const cardsRelacionados = relacionados.map(item => `
-            <a class="event-related-card" href="evento.html?id=${encodeURIComponent(item.id)}">
+            <a class="event-related-card" href="evento.html?id=${encodeURIComponent(item.id)}&voltar=${encodeURIComponent(origemRelacionados)}">
                 ${item.imagem_card ? `<img src="../${escapeHtml(item.imagem_card)}" alt="${escapeHtml(item.nome)}">` : ""}
                 <span>
                     <strong>${escapeHtml(item.nome)}</strong>
@@ -89,7 +111,7 @@ async function loadEvent() {
 
         container.innerHTML = `
             <div class="container">
-                <a class="event-back" href="../index.html">← Voltar para eventos</a>
+                <a class="event-back" href="${escapeHtml(destinoVolta)}">← Voltar para eventos</a>
 
                 ${evento.link_grupo_vip ? `
                     <a class="vip-event-banner" href="${escapeHtml(evento.link_grupo_vip)}" target="_blank" rel="noopener noreferrer" aria-label="Entrar no Grupo VIP do WhatsApp">

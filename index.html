@@ -16,7 +16,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css?v=9">
+    <link rel="stylesheet" href="css/style.css?v=10">
 
 </head>
 
@@ -41,6 +41,14 @@
                 </div>
 
             </a>
+
+            <form class="header-search" action="pages/eventos.html" role="search">
+                <label class="sr-only" for="header-search-input">Buscar eventos</label>
+                <input id="header-search-input" name="q" type="search" placeholder="Buscar eventos" autocomplete="off">
+                <button type="button" aria-label="Abrir busca" aria-expanded="false">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.15a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+                </button>
+            </form>
 
             <nav class="nav-menu">
 
@@ -92,27 +100,15 @@
          HERO
     ====================================================== -->
 
-    <section class="hero">
+    <section class="hero hero--compact">
 
         <div class="container">
 
-            <span class="hero-tag">
-
-                LISTAS VIP • EVENTOS PREMIUM • INGRESSOS COM DESCONTO
-
-            </span>
-
-            <h1>
-
-                Rio Entretenimento
-
-            </h1>
-
-            <p>
-
-                Conectando você às melhores experiências do Brasil.
-
-            </p>
+            <div class="hero-intro">
+                <span class="hero-tag">LISTAS VIP • EVENTOS PREMIUM • INGRESSOS COM DESCONTO</span>
+                <h1>Rio Entretenimento</h1>
+                <p>Conectando você às melhores experiências do Brasil.</p>
+            </div>
 
             <div class="hero-vip-banner">
     <div class="hero-vip-logo" aria-hidden="true"><img src="images/logo/logo.PNG" alt=""></div>
@@ -255,8 +251,10 @@
     ====================================================== -->
 
     <script src="js/site-menu.js"></script>
+    <script src="js/site-search.js"></script>
     <script>configurarMenuMobile();</script>
     <script src="js/index.js?v=2"></script>
+    <script src="js/contact-cta.js"></script>
     <script src="js/vertical-scroll-only.js?v=1"></script>
 
 </body>

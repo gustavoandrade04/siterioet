@@ -1,0 +1,124 @@
+/* Camada final para manter o cabeçalho e a abertura da home consistentes. */
+.header-search > label { display: none !important; }
+
+.header-search {
+    display: flex !important;
+    align-items: center;
+    flex: 0 0 auto;
+    margin-left: .25rem;
+}
+
+.header-search input {
+    display: none !important;
+    box-sizing: border-box;
+    height: 38px;
+    min-width: 0;
+    border: 1px solid var(--borda);
+    border-radius: var(--radius-pill);
+    outline: 0;
+    background: var(--card);
+    color: var(--branco);
+    font: inherit;
+}
+
+.header-search.is-open input {
+    display: block !important;
+    width: clamp(150px, 15vw, 220px);
+    padding: 0 .85rem;
+}
+
+.header-search button {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    border: 1px solid var(--borda);
+    border-radius: 50%;
+    background: var(--card);
+    color: var(--branco);
+    cursor: pointer;
+}
+
+.header-search button svg {
+    display: block;
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+}
+
+.hero--compact .hero-intro {
+    align-items: center;
+    text-align: center;
+}
+
+.hero--compact .hero-intro p {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.hero--compact .hero-vip-banner {
+    display: flex;
+    align-items: center;
+    width: min(100%, 980px);
+    min-height: 0;
+    padding: .8rem 1.1rem;
+}
+
+.hero--compact .hero-vip-logo {
+    flex: 0 0 46px;
+    width: 46px;
+    height: 46px;
+    padding: 5px;
+}
+
+.hero--compact .hero-vip-logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 576px) {
+    .header .container {
+        gap: .4rem;
+        padding-right: .65rem;
+        padding-left: .65rem;
+    }
+
+    .logo-area { gap: .35rem; min-width: 0; }
+    .logo-area img { width: 34px; }
+    .brand h2 { font-size: clamp(.62rem, 3.45vw, .8rem); letter-spacing: 0; white-space: nowrap; }
+
+    .header-search { margin-left: auto; }
+    .header-search button, .menu-toggle { width: 38px; height: 38px; }
+    .header-search.is-open input {
+        position: absolute;
+        top: calc(100% + .5rem);
+        right: .65rem;
+        z-index: 2;
+        width: min(62vw, 250px);
+    }
+
+    .header .btn-main, .instagram-link, .whatsapp-link { display: none !important; }
+    .menu-toggle { display: inline-flex !important; flex: 0 0 auto; }
+
+    .hero--compact { padding: calc(var(--header-height) + 1.25rem) 0 1.75rem !important; }
+    .hero--compact .hero-intro { margin-bottom: 1.25rem; }
+    .hero--compact .hero-intro h1 { max-width: none; font-size: clamp(1.72rem, 8.8vw, 2.25rem); white-space: nowrap; overflow: visible; word-break: normal; }
+    .hero--compact .hero-intro p { max-width: 340px; font-size: .9rem; }
+    .hero--compact .hero-intro .hero-tag { font-size: .52rem; letter-spacing: .8px; }
+
+    .hero--compact .hero-vip-banner { flex-wrap: wrap; gap: .6rem; padding: .75rem; }
+    .hero--compact .hero-vip-logo { flex: 0 0 42px; width: 42px; height: 42px; padding: 4px; }
+    .hero--compact .hero-vip-content { flex: 1 1 calc(100% - 54px); gap: .15rem; }
+    .hero--compact .hero-vip-content h2 { font-size: 1rem; }
+    .hero--compact .hero-vip-content p { font-size: .72rem; }
+    .hero--compact .hero-vip-button { width: 100%; margin: 0; padding: .65rem .85rem; }
+}
