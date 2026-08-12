@@ -1,0 +1,39 @@
+/* Ordem e proporÃ§Ã£o da pÃ¡gina de evento. */
+@media (min-width:769px){
+    .event-layout{
+        grid-template-areas:
+            "media content related"
+            "details content related";
+    }
+    .event-media{grid-area:media}
+    .event-content{grid-area:content;min-width:0}
+    .event-extra-info{grid-area:details}
+    .event-related{grid-area:related}
+}
+
+@media (max-width:768px){
+    .event-content{order:initial}
+
+    .event-media .event-poster{
+        width:min(100%,320px);
+        margin:0 auto;
+    }
+
+    .vip-event-banner{
+        align-items:center;
+        gap:.75rem;
+        margin-bottom:var(--space-lg);
+        padding:1rem;
+    }
+    .vip-event-banner__logo{
+        flex:0 0 48px;
+        width:48px;
+        height:48px;
+        padding:6px;
+    }
+    .vip-event-banner__content{gap:.15rem}
+    .vip-event-banner__eyebrow{font-size:.62rem}
+    .vip-event-banner__content strong{font-size:1.15rem;line-height:1.15}
+    .vip-event-banner__description{display:none}
+    .vip-event-banner__button{padding:.65rem .8rem;font-size:.75rem}
+}

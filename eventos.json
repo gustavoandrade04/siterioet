@@ -524,6 +524,43 @@
 }
 
 
+,{
+    "id": "Baile-do-Momo",
+    "nome": "BAILE DO MOMO | FULL OPEN BAR",
+
+    "tags": [  "premium"  ],
+
+    "destaque": false ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "Sábado,",
+    "data": "21/11/2026",
+    "horario": "23h às 08h",
+
+    "local": "Museu do Amanhã",
+
+    "imagem_card": "images/eventos/bailedomomocard.png",
+
+    "imagem_detalhe": "images/eventos/bailedomomodetalhes.png",
+
+    "o_que_vai_rolar": [ "Depois de uma noite histórica no village… prepare-se para viver uma das noites mais insanas de 2026! 🍻🔥\n\nIngressos no dia da festa chegam a bater R$ 800/R$ 1.200 reais, a hora de comprar é agora!!!!\n\n**🎉 BAILE DO MOMO**\n📅  21/11/2026\n**🥃 OPEN BAR**\n**🍬OPEN GULOSEIMAS**"
+         ],
+
+    "lineup": [
+      "🎯 Mais revelações em breve"
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "horario_lista_vip": "",
+
+    "link_ingresso": ""
+}
 ,
 
 
@@ -541,7 +578,7 @@
     "horario": "",
     "local": "Itacimirim, Bahia",
     "imagem_card": "images/eventos/reveillon-destino.png",
-    "imagem_detalhe": "",
+    "imagem_detalhe": "images/eventos/reveillondestinocard.png",
     "o_que_vai_rolar": [
   "✨ Viva a Magia do Réveillon Destino 2027\n\n",
   "",

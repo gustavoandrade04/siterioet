@@ -336,6 +336,20 @@
         max-width: 440px;
     }
 
+    /* No celular, os botÃµes de aÃ§Ã£o aparecem antes do cartaz e dos detalhes. */
+    .event-content {
+        order:-1;
+    }
+
+    .event-actions,
+    .event-actions .btn-main {
+        width:100%;
+    }
+
+    .event-actions {
+        align-items:stretch;
+    }
+
     .vip-event-banner {
     flex-direction: column;
     align-items: stretch;

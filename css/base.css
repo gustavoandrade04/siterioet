@@ -27,6 +27,7 @@ body{
 .container{
     width:100%;
     max-width:var(--container);
+    min-width:0;
 
     margin:0 auto;
     padding:0 var(--space-lg);
@@ -95,4 +96,10 @@ a{
 ::selection{
     background:var(--azul);
     color:var(--branco);
+}
+
+main,
+section,
+footer{
+    min-width:0;
 }

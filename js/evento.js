@@ -107,25 +107,25 @@ async function loadEvent() {
                     <div class="event-media">
                         ${imagem ? `<img class="event-poster" src="${imagem}" alt="${escapeHtml(evento.nome)}">` : ""}
                         ${evento.link_linktree ? `<a class="event-linktree" href="${escapeHtml(evento.link_linktree)}" target="_blank" rel="noopener noreferrer">Ver todos os links do evento <span aria-hidden="true">→</span></a>` : ""}
-                        ${(descricao || lineup) ? `
-                            <div class="event-extra-info">
-                                ${descricao ? `<section class="event-section"><h2>O que vai rolar</h2><ul>${descricao}</ul></section>` : ""}
-                                ${lineup ? `<section class="event-section"><h2>Line-up</h2><ul>${lineup}</ul></section>` : ""}
-                            </div>
-                        ` : ""}
                     </div>
 
                     <div class="event-content">
                         <span class="event-tag">${escapeHtml((evento.tags || ["Evento"])[0])}</span>
                         <h1>${escapeHtml(evento.nome)}</h1>
+                        ${acoes ? `<div class="event-actions">${acoes}</div>` : ""}
                         <div class="event-info">
                             <p><strong>Quando:</strong> ${escapeHtml(evento["dia-da-semana"] || "")} ${escapeHtml(evento.data || "")}</p>
                             ${evento.horario ? `<p><strong>Horário:</strong> ${escapeHtml(evento.horario)}</p>` : ""}
                             <p><strong>Local:</strong> ${escapeHtml(evento.local || "A confirmar")}</p>
                             ${evento.codigo ? `<div class="event-code"><span>Use o código:</span><strong>${escapeHtml(evento.codigo)}</strong></div>` : ""}
                         </div>
-                        ${acoes ? `<div class="event-actions">${acoes}</div>` : ""}
                     </div>
+                    ${(descricao || lineup) ? `
+                        <div class="event-extra-info">
+                            ${descricao ? `<section class="event-section"><h2>O que vai rolar</h2><ul>${descricao}</ul></section>` : ""}
+                            ${lineup ? `<section class="event-section"><h2>Line-up</h2><ul>${lineup}</ul></section>` : ""}
+                        </div>
+                    ` : ""}
                     ${sugestoes}
                 </div>
             </div>`;
