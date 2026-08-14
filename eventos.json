@@ -1311,7 +1311,59 @@
     "link_lista": "",
     "horario_lista_vip": "",
     "link_ingresso": "https://cart.ingresse.com/029dbce6-7bb3-4559-93d7-27782882485d?passkey=RIOET3"
-  },
+  }
+  
+  
+  , 
+
+{
+    "id": "camaroterio-carnaval",
+    "nome": "CAMAROTE RIO | SAPUCAÍ",
+
+    "tags": [
+      "carnaval"
+    ],
+
+    "destaque": false , 
+
+    
+    "codigo": "RIOET", 
+    "dia-da-semana": "Sexta-Feira até Terça-Feira",
+    "data": "05/02/2027 até 09/02/2027",
+    "horario": "",
+
+    "local": "Marquês de Sapucaí, Rio de Janeiro,",
+
+    "imagem_card": "images/eventos/camaroterio-rj-card.png",
+
+    "imagem_detalhe": "images/eventos/camaroterio-rj-detalhes.png",
+
+    "o_que_vai_rolar": [
+    "🎯 Mais revelações em breve"
+
+
+    ],
+
+    "lineup": [ 
+  "🎯 Mais revelações em breve"
+
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "horario_lista_vip": "",
+
+    "link_ingresso": "https://bit.ly/FalecomRaphaMattos"
+}
+
+  
+  
+  
+  ,
 {
     "id": "betterday-carnaval",
     "nome": "BETTER DAYS CARNAVAL | OPEN BAR",
@@ -1817,50 +1869,5 @@
 }
 
 
-, 
-
-{
-    "id": "camaroterio-carnaval",
-    "nome": "CAMAROTE RIO | ALL INCLUSIVE",
-
-    "tags": [
-      "carnaval"
-    ],
-
-    "destaque": false , 
-
-    
-    "codigo": "RIOET", 
-    "dia-da-semana": "Sexta-Feira até Terça-Feira",
-    "data": "05 até 09 de Fevereiro",
-    "horario": "",
-
-    "local": "Marquês de Sapucaí, Rio de Janeiro,",
-
-    "imagem_card": "images/eventos/camaroterio-rj-card.png",
-
-    "imagem_detalhe": "images/eventos/camaroterio-rj-detalhes.png",
-
-    "o_que_vai_rolar": [
-    "🎯 Mais revelações em breve"
-
-
-    ],
-
-    "lineup": [ 
-  "🎯 Mais revelações em breve"
-
-    ],
-
-    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
-
-    "link_linktree": "https://linktr.ee/rioentretenimento",
-
-    "link_lista": "",
-
-    "horario_lista_vip": "",
-
-    "link_ingresso": "https://bit.ly/FalecomRaphaMattos"
-}
 
 ]
