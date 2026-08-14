@@ -20,7 +20,7 @@
       "DIPROPÓSITO",
       "DJ feeli"
     ],
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
     "link_linktree": "https://linktr.ee/rioentretenimento",
     "link_lista": "https://forms.gle/6AYLJcwE93TeTtd2A",
     "horario_lista_vip": "23:00H",
@@ -53,7 +53,7 @@
       "🎧 Saraiva",
       "🎧 Lustosa"
     ],
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
     "link_linktree": "https://linktr.ee/rioentretenimento",
     "link_lista": "https://forms.gle/vPtmmt6csHbDC7Kf7",
     "horario_lista_vip": "00:00H",
@@ -88,7 +88,7 @@
     "lineup": [
       "DUH • PG • DJ PDR • NICOLA • TOSK"
     ],
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
     "link_linktree": "https://linktr.ee/rioentretenimento",
     "link_lista": "https://forms.gle/QoTNS3G4mPxxUr3R6",
     "horario_lista_vip": "00:30H",
@@ -129,7 +129,7 @@
       "Sua Amiga Gosta | DJ Alan Castro"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -177,7 +177,7 @@
       "🎧 Sarah Ferreira (openformat)"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -222,7 +222,7 @@
       "Raiz quadrada do samba • Pedromas • Lippi • Nicola"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -231,6 +231,30 @@
     "horario_lista_vip": "23:00H",
 
     "link_ingresso": "https://zig.tickets/eventos/aldeia-sabado-0808?cupom=RIOET"
+}
+
+
+,
+
+{
+  "id": "porta-aberta",
+  "nome": "PORTA ABERTA",
+  "tags": ["destaque"],
+  "destaque": true,
+  "codigo": "",
+  "dia-da-semana": "Domingo",
+  "data": "16/08/2026",
+  "horario": "",
+  "local": "ALDEIA LAGOA",
+  "imagem_card": "images/eventos/porta.png",
+  "imagem_detalhe": "images/eventos/portadetalhes.png",
+  "o_que_vai_rolar": [],
+  "lineup": [],
+  "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
+  "link_linktree": "https://linktr.ee/rioentretenimento",
+  "link_lista": "",
+  "horario_lista_vip": "https://bit.ly/FalecomRaphaMattos",
+  "link_ingresso": "https://bit.ly/FalecomRaphaMattos"
 }
 
 
@@ -301,7 +325,7 @@
       "🎯 Mais revelações em breve"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -372,7 +396,7 @@
       "— Esbórnia Music Stage"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -425,7 +449,7 @@
       ""
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -469,7 +493,7 @@
       "🎯 Mais revelações em breve"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -515,7 +539,7 @@
       "🎯 Mais revelações em breve"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -557,7 +581,7 @@
       "🎯 Mais revelações em breve"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -601,7 +625,7 @@
       "🎯 Mais revelações em breve"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -650,7 +674,7 @@
       "Duh | Contito | Vini Correa | Zambelli | Arruda + Fricke | Kelve | Lucca Bello"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -704,7 +728,7 @@
       "DDP DIRETORIA & CONVIDADOS"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -751,7 +775,7 @@
       "🎯 Mais revelações em breve"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -825,7 +849,7 @@
       "Matheus Fernandes, Rey Vaqueiro, Syon Trio,",
       "Núzio Medeiros, Dennis DJ e DJ Topo"
     ],
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
     "link_linktree": "https://linktr.ee/rioentretenimento",
     "link_lista": "",
     "horario_lista_vip": "",
@@ -892,7 +916,7 @@
       "31.12 | Alma Réveillon"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1010,7 +1034,7 @@
       " Matheus Fernandes • Syon Trio • Tília "
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1055,7 +1079,7 @@
       "* 30 DEZ — Novidades em Breve | Open Bar",
       "* 31 DEZ — Réveillon dos Milagres: Matheus Fernandes, Pontifexx e Locos DJs | All Inclusive "
     ],
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
     "link_linktree": "https://linktr.ee/rioentretenimento",
     "link_lista": "",
     "horario_lista_vip": "",
@@ -1159,7 +1183,7 @@
       "🎯 Mais revelações em breve"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1214,7 +1238,7 @@
   "03/01 – Menos é Mais + Dilsinho + Teto\n\n"
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1250,11 +1274,11 @@
     "lineup": [
  "🎯 Mais revelações em breve"
     ],
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
     "link_linktree": "https://linktr.ee/rioentretenimento",
     "link_lista": "",
     "horario_lista_vip": "",
-    "link_ingresso": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0"
+    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
   },
 {
     "id": "seuvidal-reveillon",
@@ -1282,7 +1306,7 @@
       "**LARICAS SEU VIDAL: Open Food durante toda a noite! 🍔🌭🍟🌮**"
     ],
     "lineup": ["🎯 Mais revelações em breve"],
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
     "link_linktree": "https://linktr.ee/rioentretenimento",
     "link_lista": "",
     "horario_lista_vip": "",
@@ -1321,7 +1345,7 @@
 
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1329,7 +1353,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0"
+    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
 }
 
 , 
@@ -1367,7 +1391,7 @@
 
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1375,7 +1399,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0"
+    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
 }
 
 , 
@@ -1413,7 +1437,7 @@
 
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1421,7 +1445,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0"
+    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
 }
 
 , 
@@ -1459,7 +1483,7 @@
 
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1467,7 +1491,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0"
+    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
 }
 
 , 
@@ -1505,7 +1529,7 @@
 
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1513,7 +1537,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0"
+    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
 }
 
 , 
@@ -1551,7 +1575,7 @@
 
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1559,7 +1583,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0"
+    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
 }
 
 , 
@@ -1597,7 +1621,7 @@
 
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1605,7 +1629,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0"
+    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
 }
 
 , 
@@ -1643,7 +1667,7 @@
 
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1651,7 +1675,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0"
+    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
 }
 
 , 
@@ -1689,7 +1713,7 @@
 
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1697,7 +1721,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0"
+    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
 }
 
 , 
@@ -1735,7 +1759,7 @@
 
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1743,7 +1767,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0"
+    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
 }
 
 , 
@@ -1781,7 +1805,7 @@
 
     ],
 
-    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0",
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
@@ -1789,8 +1813,54 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&ilr=0"
+    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
 }
 
+
+, 
+
+{
+    "id": "camaroterio-carnaval",
+    "nome": "CAMAROTE RIO | ALL INCLUSIVE",
+
+    "tags": [
+      "carnaval"
+    ],
+
+    "destaque": false , 
+
+    
+    "codigo": "RIOET", 
+    "dia-da-semana": "Sexta-Feira até Terça-Feira",
+    "data": "05 até 09 de Fevereiro",
+    "horario": "",
+
+    "local": "Marquês de Sapucaí, Rio de Janeiro,",
+
+    "imagem_card": "images/eventos/camaroterio-rj-card.png",
+
+    "imagem_detalhe": "images/eventos/camaroterio-rj-detalhes.png",
+
+    "o_que_vai_rolar": [
+    "🎯 Mais revelações em breve"
+
+
+    ],
+
+    "lineup": [ 
+  "🎯 Mais revelações em breve"
+
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "horario_lista_vip": "",
+
+    "link_ingresso": "https://bit.ly/FalecomRaphaMattos"
+}
 
 ]
