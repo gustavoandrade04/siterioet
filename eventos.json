@@ -1,34 +1,37 @@
 [
   {
     "id": "encontrin",
-    "nome": "ENCONTRIN DAS QUINTAS COM DIPROPÓSITO",
+    "nome": "ENCONTRIN DAS QUINTAS COM DI PROPÓSITO",
     "tags": [
       "destaque"
     ],
     "destaque": true,
     "codigo": "RIOET",
     "dia-da-semana": "Quinta-Feira",
-    "data": "13/08/2026",
+    "data": "24/09/2026",
     "horario": "21h às 04",
-    "local": "VILLA PLANETÁRIO DA GÁVEA",
+    "local": "Villa Planetário da Gávea",
     "imagem_card": "images/eventos/encontrin-rj-card.png",
     "imagem_detalhe": "images/eventos/encontrin.png",
     "o_que_vai_rolar": [
-      "🍻 OPEN CHOPP até 22:30hrs\n\n**📝LISTA RAPHA MATTOS ATÉ 23h**\n🚺 VIP | 🚹 70,00"
+      "📝 Lista Vip Raphael Mattos:\n🚺 VIP \n🚹 70$ até 23h",
+      "O Encontrin com Di Propósito é a experiência que já espalhou pagode, samba e muita energia boa por todo o Brasil.",
+"Agora, é a vez do Rio de Janeiro receber uma edição mais próxima e especial, feita para quem quer viver o som de perto.",
+"Todas as quintas, Di Propósito recebe convidados em uma roda 360°, com clima intimista e capacidade limitada a apenas 500 pessoas.",
+"No Villa Gávea, dentro do Planetário da Gávea, a Zona Sul ganha um novo encontro para celebrar a música e a alegria.",
+"Vem viver essa noite com a gente. Vem pro Rio, vem pro Encontrin! #Pagode"
     ],
     "lineup": [
-      "DIPROPÓSITO",
-      "DJ feeli"
+      "🎧 Di Propósito & Convidados"
     ],
-    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&mlu=4",
     "link_linktree": "https://linktr.ee/rioentretenimento",
-    "link_lista": "https://forms.gle/6AYLJcwE93TeTtd2A",
+    "link_lista": "https://forms.gle/MUMehyVcffXRF1xn9",
     "horario_lista_vip": "23:00H",
-    "link_ingresso": "https://embedstore.ingresse.com/tickets/ingresse.com/event/104278?passkey=RIOET"
-  }
-  
-  ,
-  
+    "link_ingresso": "https://embedstore.ingresse.com/tickets/ingresse.com/event/105125?passkey=RIOET"}
+
+,
+
   
   {
     "id": "WHAtS-POPPIN",
@@ -39,25 +42,26 @@
     "destaque": true,
     "codigo": "RIOET",
     "dia-da-semana": "Sexta-Feira",
-    "data": "14/08/2026",
+    "data": "25/09/2026",
     "horario": "21h às 04",
     "local": "ALDEIA LAGOA",
     "imagem_card": "images/eventos/aldeia.png",
     "imagem_detalhe": "",
     "o_que_vai_rolar": [
-      "📝 Lista Vip Raphael Mattos:\n🚺 VIP até 00h\n🚹 50$ até 23h/ 70$ até 00h"
+      "📝 Lista Vip Raphael Mattos:\n🚺 VIP até 00h\n🚹 50$ até 23h/ 70$ até 00h",
+      "O Aldeia Lagoa chegou para ser o novo refúgio de diversão às margens da Lagoa Rodrigo de Freitas, em frente ao Parque dos Patins.",
+"Um espaço ao ar livre para curtir boa música, drinks especiais e encontros que aproximam todas as tribos.",
+"Prepare-se para viver momentos incríveis em um novo ponto de encontro que vai movimentar a Cidade Maravilhosa.",
+"Vem sentir o Rio, vem viver o Aldeia! #AldeiaLagoa"
     ],
     "lineup": [
-      "🎧 Carol Legally",
-      "🎧 Nicko",
-      "🎧 Saraiva",
-      "🎧 Lustosa"
+      "Toda semana os melhores DJs da cidade se revezam no comando da pista, trazendo o melhor do funk, pop, eletrônico e muito mais."
     ],
-    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
+    "link_grupo_vip": "https://chat.whatsapp.com/6L3n95foz6pBQiMBLnua3W?s=cl&p=i&mlu=4",
     "link_linktree": "https://linktr.ee/rioentretenimento",
-    "link_lista": "https://forms.gle/vPtmmt6csHbDC7Kf7",
+    "link_lista": "https://forms.gle/gs4vfowUe6ksSKNf8",
     "horario_lista_vip": "00:00H",
-    "link_ingresso": "https://zig.tickets/eventos/aldeia-sexta-1408?cupom=RIOET"
+    "link_ingresso": "https://zig.tickets/eventos/aldeia-sexta-2509?cupom=RIOET"
   }
   
   ,
@@ -65,43 +69,43 @@
   
   {
     "id": "caza-sexta",
-    "nome": "CAZA DAS ATLÉTICAS",
+    "nome": "XPERIENCE 1 ANO CAZA LAGOA",
     "tags": [
       "destaque"
     ],
     "destaque": true,
     "codigo": "RIOET",
     "dia-da-semana": "Sexta-Feira",
-    "data": "14/08/2026",
+    "data": "25/09/2026",
     "horario": "21h às 04h",
     "local": "CAZA LAGOA",
     "imagem_card": "images/eventos/caza.png",
     "imagem_detalhe": "",
     "o_que_vai_rolar": [
-      "Até 23:00h:",
-      "Open Chopp🍻",
-      "Dose Dupla Aperol🍹",
-      "📝 Lista Vip Raphael Mattos:",
-      "🚺 VIP  | 🚹R$60 até 23:30hs",
-      "🚺 R$40  | 🚹R$80 até 00:30hs"
+      "Lista até 23:00:",
+"🚺 Vip/ 🚹 70,00",
+     "A sexta-feira tem um novo ponto de encontro no Rio de Janeiro!",
+"Na Caza Lagoa, a vista para a Lagoa Rodrigo de Freitas se une à música boa e à energia carioca para dar o tom do seu fim de semana.",
+"Localizada no Parque dos Patins, no coração da Zona Sul, a casa reúne um clima acolhedor e animado, perfeito para encontrar os amigos, brindar e aproveitar a noite sem pressa.",
+"A cada sexta, uma programação diferente e um convite que continua o mesmo: deixar a rotina de lado e colecionar bons momentos.",
+"Chama a galera e vem se sentir em casa.",
+"Vem pra Caza Lagoa!"
     ],
     "lineup": [
-      "DUH • PG • DJ PDR • NICOLA • TOSK"
+      "🔉 Fragoso • Diguinho • Nicola • Tosk"
     ],
     "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
     "link_linktree": "https://linktr.ee/rioentretenimento",
-    "link_lista": "https://forms.gle/QoTNS3G4mPxxUr3R6",
+    "link_lista": "https://forms.gle/wZ5iU2SuXG2Eevow8",
     "horario_lista_vip": "00:30H",
-    "link_ingresso": "https://zig.tickets/eventos/caza-das-atleticas-1408?cupom=RIOET"
+    "link_ingresso": "https://zig.tickets/eventos/xperience-1-ano-2509?cupom=RIOET"
   }
 
-
   ,
-  
 
   {
     "id": "caza-sabado",
-    "nome": "SUNBINHA",
+    "nome": "FARRA, PINGA E FOGUETE",
 
     "tags": [
       "destaque"
@@ -112,7 +116,7 @@
     
     "codigo": "RIOET",
     "dia-da-semana": "Sábado",
-    "data": "15/08/2026",
+    "data": "26/09/2026",
     "horario": "21h às 04h",
 
     "local": "CAZA LAGOA",
@@ -122,22 +126,22 @@
     "imagem_detalhe": "",
 
     "o_que_vai_rolar": [
-     "🍹Open chopp e Aperol até 23h\n**📝 Lista Vip Raphael Mattos:**\n🚺 vip até 00h\n🚹 vip até 23h / R$ 70 até 00h"
+     "🍹Open chopp até 23h\n**📝 Lista Vip Raphael Mattos:**\n🚺 vip até 23h\n🚹 vip até 22h / R$ 70 até 23h"
     ],
 
     "lineup": [
-      "Sua Amiga Gosta | DJ Alan Castro"
+      "A REVELAR"
     ],
 
     "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
-    "link_lista": "https://forms.gle/7ni3aGBPmquzNHaH6 ",
+    "link_lista": "https://forms.gle/7uxWDX6NmDBoZQZu6",
 
     "horario_lista_vip": "00:00H",
 
-    "link_ingresso": "https://zig.tickets/eventos/sunbinha-caza-lagoa-1508?cupom=RIOET "
+    "link_ingresso": "https://zig.tickets/eventos/farra-pinga-e-foguete-2609?cupom=RIOET"
   }
 
 
@@ -146,7 +150,7 @@
 
   {
     "id": "parque-sabado",
-    "nome": "ESPM NIGHTS",
+    "nome": "Noites Di Sempre PARQUE SÁBADO",
 
     "tags": [
       "destaque"
@@ -157,7 +161,7 @@
     
     "codigo": "RIOET",
     "dia-da-semana": "Sábado",
-    "data": "15/08/2026",
+    "data": "26/09/2026",
     "horario": "21h às 04h",
 
     "local": "PARQUE BAR",
@@ -167,25 +171,26 @@
     "imagem_detalhe": "images/eventos/parque.png",
 
     "o_que_vai_rolar": [
-     "🍹 Open bar de Amstel e drinks até 23h\n📝 Lista Vip Raphael Mattos até 23h:\n🚺 VIP | 🚹R$60,00"
+     "📝 Lista Vip Raphael Mattos até 23h:\n🚺 VIP | 🚹R$60,00",
+     "🍻 Open amstel até 22h"
+     
+
     ],
 
     "lineup": [
-      "🎧 Diguinho (funk)",
-      "🎧 Luan Lima (funk)",
-      "🎧 Fragoso (funk)",
-      "🎧 Sarah Ferreira (openformat)"
+     "DEKIN • MELE • SENNA • CARELLI" 
+
     ],
 
     "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
-    "link_lista": "https://forms.gle/TFzJdFadmZEbQKCo8",
+    "link_lista": "https://forms.gle/nhRyCtp9JQdvFwmS6",
 
     "horario_lista_vip": "23:00H",
 
-    "link_ingresso": "https://zig.tickets/eventos/parque-sabado-15ago?cupom=RIOET "
+    "link_ingresso": "https://zig.tickets/eventos/parque-noite-di-sempre-2609?cupom=RIOET"
   }
 
 
@@ -193,8 +198,8 @@
 
 
   {
-    "id": "boteco-do-aldeia",
-    "nome": "BOTECO DO ALDEIA",
+    "id": "aldeia-sabado",
+    "nome": "REC - CONVIDA KUZCO ",
 
     "tags": [
       "destaque"
@@ -205,7 +210,7 @@
     
     "codigo": "RIOET",
     "dia-da-semana": "Sábado",
-    "data": "15/08/2026",
+    "data": "26/09/2026",
     "horario": "21h às 04h",
 
     "local": "ALDEIA LAGOA",
@@ -215,26 +220,82 @@
     "imagem_detalhe": "",
 
     "o_que_vai_rolar": [
-     "🍻OPEN CHOPP E APEROL ATÉ 23 horas\n\n🎤 Pagode até 00:00  depois Funk a noite toda\n📝 Lista Vip Raphael Mattos:\n🚺VIP até 23h\n🚹R$60 até 22:30 | 80 até 23h"
+     "🔉 Funk • Brasilidades • Open Format\n\n**📝 Lista Vip Raphael Mattos:**\n🚺VIP até 23h\n🚹R$60 até 22:30 | 80 até 23h"
     ],
 
     "lineup": [
-      "Raiz quadrada do samba • Pedromas • Lippi • Nicola"
+      "🔉Kuzco • Fragoso • LVKS • Fricke • Igor Rebelo"
     ],
 
     "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
-    "link_lista": " https://forms.gle/QjdyQwRopXEdhEqa9",
+    "link_lista": "https://forms.gle/CG8DsphXPTdHRuQe6",
 
     "horario_lista_vip": "23:00H",
 
-    "link_ingresso": "https://zig.tickets/eventos/aldeia-sabado-0808?cupom=RIOET"
+    "link_ingresso": "https://zig.tickets/eventos/aldeia-sabado-2609?cupom=RIOET"
 }
 
 
 ,
+
+
+{
+  "id": "dedge-sexta",
+  "nome": "D-EDGE SEXTA APRESENTA MANTO COM KEENE",
+  "tags": ["destaque"],
+  "destaque": true,
+  "codigo": "RIOET",
+  "dia-da-semana": "Sexta-Feira",
+  "data": "25/09/2026",
+  "horario": "",
+  "local": "D-Edge Rio",
+  "imagem_card": "images/eventos/dedge-card.jpg",
+  "imagem_detalhe": "images/eventos/dedge-detalhes.jpg",
+  "o_que_vai_rolar": ["Pensado pra fortalecer a cena eletrônica carioca, a LOCALS entrega uma edição super especial no dia 29.AGO",
+"Back-to-backs inéditos, encontro entre artistas de diferentes gerações e um formato que carrega por si só uma experiência diferenciada.",
+"Preparados pra mergulhar na cultura clubber carioca? ;)"],
+  "lineup": ["KEENE", 
+" BERNARDO CAMPOS ",
+"DARMONT"],
+  "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
+  "link_linktree": "https://linktr.ee/rioentretenimento",
+  "link_lista": "",
+  "horario_lista_vip": "",  
+  "link_ingresso": "https://www.blueticket.com.br/evento/41773?c=RIOET"
+}
+
+  ,
+
+
+{
+  "id": "dedge-sabado",
+  "nome": "D-EDGE SÁBADO APRESENTA MANTO COM KEENE",
+  "tags": ["destaque"],
+  "destaque": true,
+  "codigo": "RIOET",
+  "dia-da-semana": "Sábado",
+  "data": "26/09/2026",
+  "horario": "",
+  "local": "D-Edge Rio",
+  "imagem_card": "images/eventos/dedge-sab-card.jpg",
+  "imagem_detalhe": "images/eventos/dedge-detalhes.jpg",
+  "o_que_vai_rolar": ["Pensado pra fortalecer a cena eletrônica carioca, a LOCALS entrega uma edição super especial no dia 29.AGO",
+"Back-to-backs inéditos, encontro entre artistas de diferentes gerações e um formato que carrega por si só uma experiência diferenciada.",
+"Preparados pra mergulhar na cultura clubber carioca? ;)"],
+  "lineup": ["DEMI RIQUISSIMO", 
+" CAPETINI ",
+"LYCRA PRETA"],
+  "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
+  "link_linktree": "https://linktr.ee/rioentretenimento",
+  "link_lista": "",
+  "horario_lista_vip": "",  
+  "link_ingresso": "https://www.blueticket.com.br/evento/41774?c=RIOET"
+}
+
+  ,
 
 {
   "id": "porta-aberta",
@@ -243,7 +304,7 @@
   "destaque": true,
   "codigo": "",
   "dia-da-semana": "Domingo",
-  "data": "16/08/2026",
+  "data": "27/09/2026",
   "horario": "",
   "local": "ALDEIA LAGOA",
   "imagem_card": "images/eventos/porta.png",
@@ -252,201 +313,96 @@
   "lineup": [],
   "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
   "link_linktree": "https://linktr.ee/rioentretenimento",
-  "link_lista": "",
-  "horario_lista_vip": "https://bit.ly/FalecomRaphaMattos",
+  "link_lista": "https://bit.ly/FalecomRaphaMattos",
+  "horario_lista_vip": "16H",
   "link_ingresso": "https://bit.ly/FalecomRaphaMattos"
 }
 
 
-  ,
-  
-  
-  
+,
 
-  {
-    "id": "isso-nao-e-uma-festa",
-    "nome": "ISSO NÃO É UMA FESTA | FULL OPEN BAR",
 
-    "tags": [
-      "PREMIUM",
-      "OPEN BAR"
-    ],
+{
+    "id": "caza-domingo",
+    "nome": "NA ESQUINA",
+
+    "tags": [  "destaque"  ],
 
     "destaque": true ,
 
     
-    "codigo": "ISSONAOEUMRIOET",
+    "codigo": "RIOET",
     "dia-da-semana": "Sábado",
-    "data": "15/08/2026",
-    "horario": "23h às 08h",
+    "data": "27/09/2026",
+    "horario": "20h",
 
-    "local": "PRAÇA DA APOTEOSE",
+    "local": "CAZA LAGOA",
 
-    "imagem_card": "images/eventos/ineuf-rj-card.jpg",
+    "imagem_card": "images/eventos/naesquinacard.png",
 
-    "imagem_detalhe": "images/eventos/ineuf.png",
+    "imagem_detalhe": "images/eventos/naesquinadetalhes.png",
 
-    "o_que_vai_rolar": [
-     "🍸Ultra Premium Full Open Bar\n\nNunca foi sobre lugar.",
-     "Nunca foi sobre música.",
-    "Nunca foi sobre uma noite.\n\n",
-  "",
-  "Você sabe qual o X da questão?\n\n",
-  "",
-  "Desde a primeira vez que você entrou",
-  "alguma coisa mudou.\n\n",
-  "",
-  "Sempre foi sobre você, e na hora, parecia imperceptível, mas vc saiu diferente.",
-  "E depois voltou.",
-  "E mudou de novo.\n\n",
-  "",
-  "Versões suas foram ficando pelo caminho e outras começaram a surgir.\n\n",
-  "",
-  "Algumas você reconhece.",
-  "Outras, nem tanto.\n\n",
-  "",
-  "O X não é o fim.",
-  "É o encontro.\n\n",
-  "",
-  "De quem você foi.",
-  "De quem você achou que era.",
-  "E de quem você ainda pode ser.\n\n",
-  "",
-  "Aqui, nada se repete.",
-  "Tudo se multiplica.",
-  "Inclusive você.\n\n",
-  "",
-  "ISSO NÃO É UMA FESTA.",
-  "É o lugar onde todas as suas versões se encontram e O X da questão está dentro de você."
-
-    ],
+    "o_que_vai_rolar": ["Nossos melhores encontros sempre acontecem com um chopp, numa resenha, pagode, então resolvemos juntar tudo isso numa só ESQUINA!"
+         ],
 
     "lineup": [
-      "🎯 Mais revelações em breve"
+     "Da Paz & Convidados"
     ],
 
     "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
 
     "link_linktree": "https://linktr.ee/rioentretenimento",
 
-    "link_lista": "",
+    "link_lista": "https://forms.gle/QFUTQTopzVavG1ES9",
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://www.sympla.com.br/evento/isso-nAo-E-uma-festa--10th-edition/3431042?d=ISSONAOEUMRIOET"
+    "link_ingresso": "https://zig.tickets/eventos/esquina-caza-lagoa-domingo-2709?cupom=RIOET"
 }
-
-
-  ,
-
-
-{
-    "id": "esbornia-gramado",
-    "nome": "CURTA ESBÓRNIA 👑 GRAMADO-RS | FULL OPEN BAR",
-
-    "tags": [
-      "premium"
-    ],
-
-    "destaque": false , 
-
-    
-    "codigo": "RIOET", 
-    "dia-da-semana": "Sábado",
-    "data": "22/08/2026",
-    "horario": "23h às 08h",
-
-    "local": "EXPO GRAMADO",
-
-    "imagem_card": "images/eventos/esbornia-gramadocard.png",
-
-    "imagem_detalhe": "images/eventos/esbornia-gramado.png",
-
-    "o_que_vai_rolar": [
-      "**DESCONTO EM HOSPEDAGEM E FESTA NO HOTEL NO GRUPO VIP**\n\n",
-
-     "Gramado, estamos chegando com tudo!",
-
-"Quem já conhece sabe que não tem combinação melhor do que Esbórnia e a Serra Gaúcha! A cada ano, nossa história juntos fica ainda mais incrível, e a edição deste ano promete fazer sucesso mais uma vez!",
-
-"Te prepara para o melhor **FULL OPEN BAR** na festa mais divertida do Brasil! A ESBÓRNIA vai invadir a ExpoGramado e promete quebrar T-U-D-O.\n\n",
-
-"**NOSSO EVENTO:**",
-
-"— Full open bar",
-
-"— Magic Shots",
-
-"— Secret Garden",
-
-"— Samba Real",
-
-"— Brinquedos",
-
-"— Ativações",
-
-"— Amanhecer",
-
-"— Amigos",
-
-"e muita diversão."
-    ],
-
-    "lineup": [
-      "— Esbórnia Music Stage"
-    ],
-
-    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
-
-    "link_linktree": "https://linktr.ee/rioentretenimento",
-
-    "link_lista": "",
-
-    "horario_lista_vip": "",
-
-    "link_ingresso": "https://vitrine.baladapp.com.br/pt-BR/eventos/coolture-esbornia-full-open-bar/8634?promocao=RIOET"
-}
-
-
 ,
-  
-{
-    "id": "esbornia-sp",
-    "nome": "CURTA ESBÓRNIA 👑 SÃO PAULO-SP | FULL OPEN BAR",
 
-    "tags": [
-      "premium",
-      "open bar"
-    ],
+
+{
+    "id": "BOMA",
+    "nome": "BOMA | FULL OPEN BAR",
+
+    "tags": [  "premium"  ],
 
     "destaque": false ,
 
     
     "codigo": "RIOET",
-    "dia-da-semana": "Sábado,",
-    "data": "29/08/2026",
+    "dia-da-semana": "Sexta-Feira",
+    "data": "09/10/2026",
     "horario": "23h às 08h",
 
-    "local": "São Paulo, SP",
+    "local": "Edifício Touring",
 
-    "imagem_card": "images/eventos/esbornia-spcard.png",
+    "imagem_card": "images/eventos/boma-rj-card.jpg",
 
-    "imagem_detalhe": "images/eventos/esbornia-sao-paulo-2026-1.png",
+    "imagem_detalhe": "images/eventos/bomadetalhes.jpg",
 
-    "o_que_vai_rolar": [
-     "São Paulo, vamos fazer a festa juntos!\n\n",
-  "Quem conhece a Esbórnia sabe que experienciar a vibe da festa mais divertida do mundo é uma viagem à parte!\n\n",
-  "São Paulo, prepare-se para a melhor noite da sua vida, do jeito que só a Esbórnia sabe fazer! A cada edição, a nossa festa fica ainda melhor, e dessa vez não poderia ser diferente!\n\n",
-  "Vem aí o melhor **FULL OPEN BAR + MAGIC SHOTS**  que você só encontra em noites de Esbórnia.\n\n",
-  "Será uma noite inesquecível com direito à:\n\n",
-  "— Full open bar\n\n",
-  "— Magic Shots\n\n",
-  "— Amigos\n\n",
-  "e muita diversão garantida!"
-    ],
+    "o_que_vai_rolar": [ "SETORES",
+
+"* Pista",
+
+"* Backstage: Localizado atrás da cabine dos DJs, entrada exclusiva, vista privilegiada, open bar exclusivo e acesso à pista."
+         ],
 
     "lineup": [
-      ""
+      "_ELDERBROOK (dj set)",
+
+"_AMĒMĒ",
+
+"_JACKSON",
+
+"_OSGEMEOS",
+
+"_HALFCAB",
+
+"_LYSIA",
+
+"_ESCOLA DE MISTERIOS"
     ],
 
     "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
@@ -457,102 +413,10 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://www.sympla.com.br/evento/esbOrnia-sAo-paulo/3506654?d=RIOET"
+    "link_ingresso": "https://cart.ingresse.com/9d049b70-c708-45d3-bb56-220f78b0018b/tickets?passkey=RIOET"
 }
 
-
 ,
-{
-    "id": "mixed-by-mixed",
-    "nome": "❌ MIXED BY MIXED❌ 10 anos | ALL INCLUSIVE",
-
-    "tags": [
-      "premium",
-      "open bar"
-    ],
-
-    "destaque": false ,
-
-    
-    "codigo": "RIOET",
-    "dia-da-semana": "Sábado",
-    "data": "05/09/2026",
-    "horario": "23h às 08h",
-
-    "local": "PRAÇA DA APOTEOSE",
-
-    "imagem_card": "images/eventos/mixed-rj-card.png",
-
-    "imagem_detalhe": "images/eventos/mixed.png",
-
-    "o_que_vai_rolar": [
-     "10 anos de história, 10 anos de mixed! Vamos pintar o Rio de Janeiro de VERMELHO NA MAIOR MIXED DA HISTÓRIA\n**🥃 Full Open Bar Premium**\n**🍔 Open Food - TT, Japa, Spoleto, Dominos, Casa Do Pão de Queijo e muito mais"
-    ],
-
-    "lineup": [
-      "🎯 Mais revelações em breve"
-    ],
-
-    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
-
-    "link_linktree": "https://linktr.ee/rioentretenimento",
-
-    "link_lista": "",
-
-    "horario_lista_vip": "",
-
-    "link_ingresso": "https://www.sympla.com.br/evento/mixed-by-mixed--all-inclusive-10-anos/3441158?d=RIOET"
-}
-
-
-,
-
-
-{
-    "id": "better-days",
-    "nome": "WE MAKE BETTER DAYS | FULL OPEN BAR",
-
-    "tags": [
-      "premium",
-      "open bar"
-    ],
-
-    "destaque": false ,
-
-    
-    "codigo": "RIOET",
-    "dia-da-semana": "Sábado",
-    "data": "05/09/2026",
-    "horario": "23h às 08h",
-
-    "local": "A REVELAR",
-
-    "imagem_card": "images/eventos/betterdays-rj-card.jpg",
-
-    "imagem_detalhe": "images/eventos/better-days.png",
-
-    "o_que_vai_rolar": [
-     "Fim de semana épico de feriado com 12 horas de **Full Open Bar** e surpresas inimagináveis. Viva o surreal! 🎖️"
-    ],
-
-    "lineup": [
-      "🎯 Mais revelações em breve"
-    ],
-
-    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
-
-    "link_linktree": "https://linktr.ee/rioentretenimento",
-
-    "link_lista": "",
-
-    "horario_lista_vip": "",
-
-    "link_ingresso": "https://www.sympla.com.br/evento/we-make-better-days-i-rio-edition-i-05-09-26/3457469?d=RIOET"
-}
-
-
-,
-
 
 {
     "id": "Baile-do-Momo",
@@ -592,7 +456,208 @@
     "link_ingresso": "https://cart.ingresse.com/5527ecbb-76e6-4e2c-b92b-d026895dfc7a/tickets?coupon=RIOET"
 }
 
-,{
+
+,
+
+
+{
+    "id": "the-fucking-party-rj",
+    "nome": "THE FUCKING PARTY | FULL OPEN BAR",
+
+    "tags": [  "premium"  ],
+
+    "destaque": false ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "Sábado",
+    "data": "03/10/2026",
+    "horario": "23h às 07h",
+
+    "local": "A Revelar",
+
+    "imagem_card": "images/eventos/tfpcard.png",
+
+    "imagem_detalhe": "images/eventos/tfpdetalhes.png",
+
+    "o_que_vai_rolar": [ "A The Fucking Party está de volta ao Rio de Janeiro ",
+"Pra quem não conhece, somos mais que uma festa. Somos um momento. Uma memória. Ou melhor, várias delas.",
+"Somos esse sentimento que você não consegue descrever, mas fecha os olhos pra curtir.",
+"A gente não tem nome, mas uma coisa é certa, vamos dar o que falar!",
+"Dia 03 de outubro, preparem-se para uma experiência surreal com muito funk, open format e bons amigos",
+"Vem ser feliz com a gente!"
+         ],
+
+    "lineup": [
+      "🎯 Mais revelações em breve"
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "horario_lista_vip": "",
+
+    "link_ingresso": "https://www.bilheteriadigital.com/the-fucking-party-open-bar-premium-03-de-outubro?c=151065"
+}
+
+,
+
+
+{
+    "id": "santa-sexta",
+    "nome": "SANTA SEXTA | FULL OPEN BAR",
+
+    "tags": [  "premium"  ],
+
+    "destaque": false ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "Sábado",
+    "data": "23/10/2026",
+    "horario": "23h às 07h",
+
+    "local": "A Revelar",
+
+    "imagem_card": "images/eventos/sscard.png",
+
+    "imagem_detalhe": "images/eventos/ssdetalhes.jpg",
+
+    "o_que_vai_rolar": [ "A Santa Sexta chega à sua décima edição em clima de Halloween, com uma proposta especial: uma festa menor, mais exclusiva e ainda mais próxima do público.",
+"Dessa vez, escolhemos novamente a Zona Sul do Rio de Janeiro para criar uma experiência com capacidade reduzida, novas ativações e um investimento especial na temática de Halloween.",
+"Prepare-se para uma edição cheia de surpresas!",
+"Muitas novidades serão reveladas ao longo das próximas semanas.",
+"E o que não muda?",
+"Muito funk, open bar e uma pista que não para!",
+"Menos gente.",
+"Mais conexão.",
+"A mesma intensidade.",
+"TRAJE OBRIGATÓRIO: ALL BLACK OU FANTASIA.",
+"Venha de preto ou entre no clima do Halloween com a sua fantasia!"
+         ],
+
+    "lineup": [
+      "🎯 Mais revelações em breve"
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "horario_lista_vip": "",
+
+    "link_ingresso": "https://www.sympla.com.br/evento/santa-sexta---10-edicao---full-open-bar/3588636?d=RIOET"
+}
+
+,
+
+
+{
+    "id": "sol-da-meia-noite",
+    "nome": "SOL DA MEIA NOITE | FULL OPEN BAR",
+
+    "tags": [  "premium"  ],
+
+    "destaque": true ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "Sábado",
+    "data": "26/09/2026",
+    "horario": "23h às 07h",
+
+    "local": "A Revelar",
+
+    "imagem_card": "images/eventos/sdm-card.jpg",
+
+    "imagem_detalhe": "images/eventos/sdm-detalhes.jpg",
+
+    "o_que_vai_rolar": [ "A noite sempre foi medida pela ausência.",
+"Quando a luz recua, ela começa.",
+"Quando a luz retorna, ela termina.",
+"Existe um lugar no mundo onde isso não acontece.",
+"A meia-noite chega  e o sol permanece. Não como intruso. Como fato.",
+"A luz ocupa um horário que não é dela e ninguém consegue argumentar contra isso.",
+"O tempo não para.",
+"Ele apenas perde a serventia de marcar.",
+"Durante Treze edições nos recusamos seguir uma fórmula.",
+"Por que  Sol da Meia-Noite é a representação desse fenômeno.",
+"Alguns fenômenos não podem ser explicados  apenas vividos."
+         ],
+
+    "lineup": [
+      "🎯 Mais revelações em breve"
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "horario_lista_vip": "",
+
+    "link_ingresso": "https://www.sympla.com.br/evento/sol-da-meia-noite/3548202?d=RIOET"
+}
+
+,
+
+
+{
+    "id": "baile-do-syon-rj",
+    "nome": "BAILE DO SYON | FULL OPEN BAR",
+
+    "tags": [  "premium"  ],
+
+    "destaque": false ,
+
+    
+    "codigo": "RIOET",
+    "dia-da-semana": "Domingo",
+    "data": "11/10/2026",
+    "horario": "21h às 07h",
+
+    "local": "Museu do Amanhã",
+
+    "imagem_card": "images/eventos/syon-card-rj.jpg",
+
+    "imagem_detalhe": "images/eventos/syon-detalhes-rj.jpg",
+
+    "o_que_vai_rolar": [ "BAILE DA SYON RIO DE JANEIRO",
+"O Baile da Syon cresceu, graças a vocês! Dia 11 de outubro de 2026, teremos, pela terceira vez no Rio de Janeiro.",
+"Muito mais que um show, o Baile é uma experiência do lifestyle que o trio representa. Um rolê pensado para os fãs, amigos e toda a galera que busca uma festa com muita vibe.",
+"Prepare-se para uma imersão audiovisual, com ativações, cenografia impactante e muita energia boa! Garanta já seu ingresso para curtir com o Syon Trio e DJs mais que especiais esse grande momento!",
+"🗓️ 11.10.2026 | Sábado, 20h - Pré-feriado nacional",
+"🥤 Full Open Bar (Vodka, Whisky, Gin, Red Bull, cerveja, shots, água, refrigerante, sucos)",
+"📍 Zona Sul, Rio de Janeiro-RJ"
+         ],
+
+    "lineup": [
+      "🎯 Mais revelações em breve"
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "horario_lista_vip": "",
+
+    "link_ingresso": "https://cart.ingresse.com/501cd4df-fe74-4016-a68c-195804e11346/tickets?coupon=RIOET"
+}
+
+
+
+,
+
+
+{
     "id": "Esbornia-rj",
     "nome": "ESBÓRNIA RJ | FULL OPEN BAR",
 
@@ -635,157 +700,6 @@
 
     "link_ingresso": "https://www.sympla.com.br/evento/esbOrnia-16-anos/3531369?d=RIOET"
 }
-
-
-
-,
-
-
-{
-    "id": "Sierra-Sound",
-    "nome": "SIERRA SOUND TRIP | FULL OPEN BAR",
-
-    "tags": [  "premium"  ],
-
-    "destaque": false ,
-
-    
-    "codigo": "RIOET",
-    "dia-da-semana": "Sábado",
-    "data": "29/08/2026",
-    "horario": "15h às 03h",
-
-    "local": "Itaipava, Petrópolis - RJ",
-
-    "imagem_card": "images/eventos/sierra-card.png",
-
-    "imagem_detalhe": "images/eventos/sierra-detalhes.png",
-
-    "o_que_vai_rolar": [ "Entre o verde das montanhas e o inverno carioca…",
-  "Prepare-se para viver um dia inesquecível em Itaipava com música boa, natureza e vibe nas alturas!\n\n",
-  "SIERRA SOUND TRIP",
-  "29 de agosto",
-  "Itaipava - RJ",
-  "Full Open Bar\n\n",
-  "#THEBESTDAYEVER"
-         ],
-
-    "lineup": [
-      "Duh | Contito | Vini Correa | Zambelli | Arruda + Fricke | Kelve | Lucca Bello"
-    ],
-
-    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
-
-    "link_linktree": "https://linktr.ee/rioentretenimento",
-
-    "link_lista": "",
-
-    "horario_lista_vip": "",
-
-    "link_ingresso": " https://www.sympla.com.br/evento/sierra-sound-trip/3511172?d=RIOET"
-}
-
-
-
-
-,
-
-
-{
-    "id": "casa-ddp",
-    "nome": "CASA DDP | FULL OPEN BAR",
-
-    "tags": [  "premium"  ],
-
-    "destaque": false ,
-
-    
-    "codigo": "RIOET",
-    "dia-da-semana": "Sábado",
-    "data": "05/09/2026",
-    "horario": "14h às 02h",
-
-    "local": "Casa DDP, Barra da Tijuca - RJ",
-
-    "imagem_card": "images/eventos/ddp-card.png",
-
-    "imagem_detalhe": "images/eventos/ddp-detalhes.jpg",
-
-    "o_que_vai_rolar": [ "CASA DDP 🌴🏡",
-  "A DESPEDIDA",
-  "Só para convidados\n\n",
-  "A Casa DDP vai chegar ao fim e precisamos nos despedir da melhor forma: em uma festa histórica com vocês! 🙏🏼💚\n\n",
-  "💚 DDP DIRETORIA + DJs",
-  "**🍸 12h Full Open Bar**",
-  "🗓️ Sábado, 05/09 - feriado nacional",
-  "🕑 14h",
-  "📍 Casa DDP (RJ)",
-  "🍾FULL OPEN BAR\n\n",
-  "#AMelhorOpenVibeDoMundo #CasaDDP"
-         ],
-
-    "lineup": [
-      "DDP DIRETORIA & CONVIDADOS"
-    ],
-
-    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
-
-    "link_linktree": "https://linktr.ee/rioentretenimento",
-
-    "link_lista": "",
-
-    "horario_lista_vip": "",
-
-    "link_ingresso": "https://embedstore.ingresse.com/tickets/www.ingresse.com/event/104273?passkey=RIOET"
-}
-
-
-,
-
-
-{
-    "id": "5521",
-    "nome": "5521 | FULL OPEN BAR",
-
-    "tags": [  "premium"  ],
-
-    "destaque": false ,
-
-    
-    "codigo": "5521DARIOET",
-    "dia-da-semana": "Sexta-Feira",
-    "data": "04/09/2026",
-    "horario": "21h",
-
-    "local": "A REVELAR",
-
-    "imagem_card": "images/eventos/5521-detalhes.png",
-
-    "imagem_detalhe": "images/eventos/5521-card.png",
-
-    "o_que_vai_rolar": [ "Rio de Janeiro, chegou a hora de comemorar esses 6 anos de historia na maior edição da 5521 que vocês já viram!\n\n",
-  "No dia 04 de setembro, você tem um encontro marcado com a mais carioca em uma festa que promete ser inesquecível, com muito pagode, funk e tudo que a festa mais carioca tem a oferecer em um formato FULL open bar!\n\n",
-  "Você não pode ficar de fora dessa. Afinal, não são 6 meses. São 6 anos de história. 🧡\n\n",
-  "🗓️ 04 de setembro",
-  "📍Rio de Janeiro",
-  "🍸 FULL OPEN BAR"
-         ],
-
-    "lineup": [
-      "🎯 Mais revelações em breve"
-    ],
-
-    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
-
-    "link_linktree": "https://linktr.ee/rioentretenimento",
-
-    "link_lista": "",
-
-    "horario_lista_vip": "",
-
-    "link_ingresso": "https://embedstore.ingresse.com/tickets/www.ingresse.com/event/104342?passkey=5521DARIOET"
-}
-
 
 ,
 
@@ -1110,7 +1024,7 @@
 
     "imagem_card": "images/eventos/reveillonareia-rj-card.jpg",
 
-    "imagem_detalhe": "images/eventos/areia-reveillon.png",
+    "imagem_detalhe": "images/eventos/reveillonareia-rj-detalhes.jpg",
 
     "o_que_vai_rolar": [
      "Entre o mar, a música e a areia, nasce um encontro de pessoas que escolhem viver o verão com presença, liberdade e intensidade na medida certa.\n\n",
@@ -1278,7 +1192,7 @@
     "link_linktree": "https://linktr.ee/rioentretenimento",
     "link_lista": "",
     "horario_lista_vip": "",
-    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
+    "link_ingresso": "https://www.sympla.com.br/evento/reveillon-sal/3543836?d=RIOET"
   },
 {
     "id": "seuvidal-reveillon",
@@ -1339,13 +1253,43 @@
     "imagem_detalhe": "images/eventos/camaroterio-rj-detalhes.png",
 
     "o_que_vai_rolar": [
-    "🎯 Mais revelações em breve"
+    "**30.01.27 | Sábado | Ensaios do Rio** (OPEN BAR)",
+"**31.01.27 | Domingo | Ensaios do Rio** (OPEN BAR)",
+"**05.02.27 | Sexta | Desfile Série Ouro** - Shows: Belo, Melody e Maneirinho. Escolas: São Clemente, Unidos do Jacarezinho, Porto da Pedra, Vigário Geral, Acadêmicos de Niterói, União da Ilha, Unidos da Ponte e Unidos de Bangu.",
+"**06.02.27 | Sábado | Desfile Série Ouro** - Shows: Roda do D2, L7nnon e DJ Topo. Escolas: Santa Cruz, Inocentes de Belford Roxo, Estácio de Sá, Unidos de Padre Miguel, Arranco, Império Serrano, Em Cima da Hora, Botafogo Samba Clube e União do Parque Acari.",
+"**07.02.27 | Domingo | Desfile Grupo Especial** - Shows: Sorriso Maroto e Leandro Sapucahy. Escolas: União de Maricá, Beija-Flor, Paraíso do Tuiuti e Vila Isabel.",
+"**08.02.27 | Segunda | Desfile Grupo Especial** - Shows: Xande de Pilares e Yan. Escolas: Mocidade, Unidos da Tijuca, Salgueiro e Imperatriz Leopoldinense.",
+"**09.02.27 | Terça | Desfile Grupo Especial** - Shows: Mumuzinho e Pixote. Escolas: Portela, Viradouro, Grande Rio e Mangueira.",
+"**13.02.27 | Sábado | Campeãs** - Shows: Ferrugem e Thiago Martins. Escolas: As seis primeiras colocadas do Carnaval 2027.",
+"**EXPERIÊNCIAS:**",
+"O maior super camarote com 3000 m2 de área útil",
+"Kit folião c/ camisas exclusivas*",
+"Ativações e experiências de marcas parceiras e patrocinadores",
+"Vista panorâmica",
+"Uma das maiores frisas da avenida",
+"Open bar premium",
+"Buffet completo e variado, incluindo serviço volante, entradas, jantar, estações gourmet, sobremesas e café da manhã.",
+"Transfer ida e volta | Jockey Club (Gávea) x Camarote Rio x Jockey Club (Gávea)",
+"Espaços internos totalmente climatizados"
 
 
     ],
 
     "lineup": [ 
-  "🎯 Mais revelações em breve"
+ "Belo",
+"Sorriso Maroto",
+"Xande de Pilares",
+"Ferrugem",
+"Mumuzinho",
+"L7NNON",
+"Roda de Samba do Marcelo D2",
+"Pixote",
+"DJ Topo",
+"Melody",
+"Maneirinho",
+"Leandro Sapucahy",
+"Yan",
+"Thiago Martins"
 
     ],
 
@@ -1357,11 +1301,64 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://bit.ly/FalecomRaphaMattos"
+    "link_ingresso": "https://wa.me/5521996014500?text=Ol%C3%A1%21%20Gostaria%20de%20adquirir%20um%20dia%20de%20camarote%20rio"
 }
 
   
-  
+  ,
+
+
+{
+    "id": "camaroteaura-carnaval",
+    "nome": "CAMAROTE AURA | SAPUCAÍ",
+
+    "tags": [
+      "carnaval"
+    ],
+
+    "destaque": false , 
+
+    
+    "codigo": "RIOET", 
+    "dia-da-semana": "Sexta-Feira até Terça-Feira",
+    "data": "05/02/2027 até 09/02/2027",
+    "horario": "",
+
+    "local": "Marquês de Sapucaí, Rio de Janeiro,",
+
+    "imagem_card": "images/eventos/camaroteaura-rj-card.jpg",
+
+    "imagem_detalhe": "images/eventos/camaroteaura-carnaval-detalhes.jpeg",
+
+    "o_que_vai_rolar": ["O Camarote AURA é um espaço onde a energia do Carnaval se transforma em experiência. Uma celebração sensorial que une a vibração única da Sapucaí à sofisticação de serviços exclusivos. Aqui, a presença é poder: cada detalhe foi pensado para amplificar o brilho de quem vive intensamente o agora.",
+"Com a frisa debruçada para o coração da Sapucaí - ao lado do primeiro recuo da bateria - inauguramos nosso primeiro ano de avenida em um local único, nunca antes aberto ao público.\n\n",
+"Tudo o que você precisa saber sobre esta experiência:",
+"✔ Local exclusivo no Setor 2",
+"✔ Visão privilegiada dos desfiles",
+"✔ Open bar premium",
+"✔ Experiências gastronômicas",
+"✔ Grandes shows",
+"✔ Customização de camisas",
+"✔ Meeting Point e Transfer (Ida e Volta)*",
+"*Não há operação de transfers nos dias 31 de janeiro e 10 de fevereiro."
+      
+    ],
+
+    "lineup": [
+      "🎯 Mais revelações em breve"
+    ],
+
+    "link_grupo_vip": "https://chat.whatsapp.com/G4WerXHUMAbHa5SoGv4jGx",
+
+    "link_linktree": "https://linktr.ee/rioentretenimento",
+
+    "link_lista": "",
+
+    "horario_lista_vip": "",
+
+    "link_ingresso": "https://www.ticketmaster.com.br/event/rio-carnaval-2027-camarote-aura-afiliados-5/RIOET"
+}
+
   
   ,
 {
@@ -1382,7 +1379,7 @@
 
     "local": "A REVELAR, Rio de Janeiro,",
 
-    "imagem_card": "images/eventos/carnavalbetterdays-rj-card.jpg",
+    "imagem_card": "images/eventos/betterdays-rj-card.jpg",
 
     "imagem_detalhe": "images/eventos/carnavalbetterday-rj-detalhes.jpg",
 
@@ -1405,7 +1402,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
+    "link_ingresso": "https://www.sympla.com.br/evento/we-make-better-days-l-carnival-edition–05022027/3578495?d=RIOET"
 }
 
 , 
@@ -1543,7 +1540,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
+    "link_ingresso": "https://cart.ingresse.com/dbe4e07d-d554-4228-88f9-af473ee4ddef/tickets?passkey=RIOET"
 }
 
 , 
@@ -1635,7 +1632,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
+    "link_ingresso": "https://cart.ingresse.com/cc9d0199-fc0a-458e-9e14-2e5a903d7b52/tickets?cod=RIOET"
 }
 
 , 
@@ -1838,7 +1835,7 @@
     "codigo": "RIOET", 
     "dia-da-semana": "Terça-feira",
     "data": "09/02/2027",
-    "horario": "",
+    "horario": "11h",
 
     "local": "A REVELAR, Rio de Janeiro,",
 
@@ -1847,7 +1844,16 @@
     "imagem_detalhe": "images/eventos/carnavalixquece-rj-detalhes.jpg",
 
     "o_que_vai_rolar": [
-    "🎯 Mais revelações em breve"
+    "Alerta de frente quente chegando no Carnaval!",
+"Prontos para a única IXQUECE do ano?",
+"09.02.27 . terça de Carnaval . 11am",
+"Rio de Janeiro - RJ!",
+"Uma vez por ano a gente se joga de cabeça na melhor pool party carioca, e pode ir se preparando que A IXQUECE 2026 TÁ CONFIRMADA NA SUA TERÇA DE CARNAVAL!",
+"E vai ser daquele jeito que a gente goxta:",
+"Pool party de verdade &",
+"13h full open bar &",
+"Muitas surpresas &",
+"IXXXXQUECE!"
 
 
     ],
@@ -1865,7 +1871,7 @@
 
     "horario_lista_vip": "",
 
-    "link_ingresso": "https://chat.whatsapp.com/KholyD4wKdSAzl3aKS5GlM"
+    "link_ingresso": "https://www.sympla.com.br/evento/ixquece-l-carnaval-2027/3531860?d=RIOET"
 }
 
 

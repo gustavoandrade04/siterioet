@@ -1,4 +1,13 @@
+/* Esta página não utiliza o brilho decorativo da hero da home. */
+.page-events .hero,
+.page-events .hero::before {
+    display: none !important;
+}
+
 .catalog-page {
+    position: relative;
+    z-index: 1;
+    isolation: isolate;
     min-height: 100vh;
     padding: var(--space-3xl) 0;
 }

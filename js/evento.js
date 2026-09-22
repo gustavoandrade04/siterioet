@@ -105,8 +105,8 @@ async function loadEvent() {
         `).join("");
         const sugestoes = cardsRelacionados ? `<aside class="event-related"><h2>Outros eventos ${abaAtual === "destaque" ? "da semana" : "desta categoria"}</h2><div class="event-related-grid">${cardsRelacionados}</div></aside>` : "";
         const acoes = [
-            evento.link_lista && `<a class="btn-main" href="${escapeHtml(evento.link_lista)}" target="_blank" rel="noopener noreferrer">Entrar na Lista VIP</a>`,
-            evento.link_ingresso && `<a class="btn-main btn-dark" href="${escapeHtml(evento.link_ingresso)}" target="_blank" rel="noopener noreferrer">Comprar ingresso</a>`
+            evento.link_lista && `<a class="btn-main" data-analytics-action="clique_lista_vip" href="${escapeHtml(evento.link_lista)}" target="_blank" rel="noopener noreferrer">Entrar na Lista VIP</a>`,
+            evento.link_ingresso && `<a class="btn-main btn-dark" data-analytics-action="clique_ingresso" href="${escapeHtml(evento.link_ingresso)}" target="_blank" rel="noopener noreferrer">Comprar ingresso</a>`
         ].filter(Boolean).join("");
 
         container.innerHTML = `
@@ -114,7 +114,7 @@ async function loadEvent() {
                 <a class="event-back" href="${escapeHtml(destinoVolta)}">← Voltar para eventos</a>
 
                 ${evento.link_grupo_vip ? `
-                    <a class="vip-event-banner" href="${escapeHtml(evento.link_grupo_vip)}" target="_blank" rel="noopener noreferrer" aria-label="Entrar no Grupo VIP do WhatsApp">
+                    <a class="vip-event-banner" data-analytics-action="clique_grupo_whatsapp" href="${escapeHtml(evento.link_grupo_vip)}" target="_blank" rel="noopener noreferrer" aria-label="Entrar no Grupo VIP do WhatsApp">
                         <div class="vip-event-banner__logo" aria-hidden="true"><img src="../images/logo/logo.PNG" alt=""></div>
                         <div class="vip-event-banner__content">
                             <span class="vip-event-banner__eyebrow">Comunidade Rioet</span>
@@ -128,7 +128,7 @@ async function loadEvent() {
                 <div class="event-layout">
                     <div class="event-media">
                         ${imagem ? `<img class="event-poster" src="${imagem}" alt="${escapeHtml(evento.nome)}">` : ""}
-                        ${evento.link_linktree ? `<a class="event-linktree" href="${escapeHtml(evento.link_linktree)}" target="_blank" rel="noopener noreferrer">Ver todos os links do evento <span aria-hidden="true">→</span></a>` : ""}
+                        ${evento.link_linktree ? `<a class="event-linktree" data-analytics-action="clique_links_evento" href="${escapeHtml(evento.link_linktree)}" target="_blank" rel="noopener noreferrer">Ver todos os links do evento <span aria-hidden="true">→</span></a>` : ""}
                     </div>
 
                     <div class="event-content">
@@ -151,6 +151,7 @@ async function loadEvent() {
                     ${sugestoes}
                 </div>
             </div>`;
+        window.rioAnalytics?.viewEvent(evento);
     } catch (error) {
         console.error(error);
         renderError("Não foi possível carregar este evento. Tente novamente em instantes.");

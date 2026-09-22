@@ -51,7 +51,11 @@ function ordenarEventos(eventos) {
 
 function acessoEvento(evento) {
     if (evento.link_lista) {
-        return '<span class="catalog-access catalog-access--vip">Lista VIP</span>';
+        const horarioListaVip = String(evento.horario_lista_vip || "").trim();
+        const horarioValido = horarioListaVip && !/^https?:\/\//i.test(horarioListaVip);
+        const texto = horarioValido ? `Lista VIP até ${escapar(horarioListaVip)}` : "Lista VIP";
+
+        return `<span class="catalog-access catalog-access--vip">${texto}</span>`;
     }
 
     if (evento.link_ingresso) {
